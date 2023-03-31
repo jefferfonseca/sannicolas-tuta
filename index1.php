@@ -1,162 +1,162 @@
 <?php $menu="Inicio"; include('includes/header.php');?>
 
 <div class="parallax-container">
-    <div class="parallax"><img src="./images/parallax/1.jpeg"></div>
-    <div class="row" id="content">
-        <div class="col s12 m12 l8">
-            <div class="slideshow-container center">
+   <div class="parallax"><img src="./images/parallax/1.jpeg"></div>
+   <div class="row" id="content">
+       <div class="col s12 m12 l8">
+           <div class="slideshow-container center">
 
-                <div class="mySlides fade">
-                    <img class="responsive-img" src="./images/slider/1.jpg" height="330px" width="auto">
-                </div>
+               <div class="mySlides fade">
+                   <img class="responsive-img" src="./images/slider/1.jpg" height="330px" width="auto">
+               </div>
 
-                <div class="mySlides fade">
-                    <img class="responsive-img" src="./images/slider/2.jpg" height="330px" width="auto">
-                </div>
+               <div class="mySlides fade">
+                   <img class="responsive-img" src="./images/slider/2.jpg" height="330px" width="auto">
+               </div>
 
-                <div class="mySlides fade">
-                    <img class="responsive-img" src="./images/slider/3.jpeg" height="330px" width="auto">
-                </div>
+               <div class="mySlides fade">
+                   <img class="responsive-img" src="./images/slider/3.jpeg" height="330px" width="auto">
+               </div>
 
-                <div class="mySlides fade">
-                    <img class="responsive-img" src="./images/slider/4.png" height="330px" width="auto">
-                </div>
-                
-            </div>
-        </div>
+               <div class="mySlides fade">
+                   <img class="responsive-img" src="./images/slider/4.png" height="330px" width="auto">
+               </div>
+               
+           </div>
+       </div>
 
-        <div class="col s12 m12 l4 center">
-            <div class="row" style="margin: 20px 0;">
+       <div class="col s12 m12 l4 center">
+           <div class="row" style="margin: 20px 0;">
 
-                <div class="col s6 m3 l6">
-                    <a href="http://sedboyaca.gov.co/"><img class="responsive-img borde-dorado"
-                            src="./images\convenios\sedboyaca.jpg" width=250px height=180px></a>
-                </div>
-                <div class="col s6 m3 l6">
-                    <a href="http://sedboyaca.gov.co/a-estudiar-en-casa/"><img class="responsive-img borde-dorado"
-                            src="./images\convenios\ac.jpg" width=250px height=180px></a>
-                </div>
-                <div class="col s6 m3 l6">
-                    <a href="http://moodle.uptc.edu.co/articulacion/"><img class="responsive-img borde-dorado"
-                            src="./images\convenios\UPTC.jpg" width=250px height=180px></a>
-                </div>
-                <div class="col s6 m3 l6">
-                    <a href="https://compucol.co/colegios/paipaiettomasvasquezr/"><img
-                            class="responsive-img borde-dorado" src="./images\convenios\cc.jpg" width=250px
-                            height=180px></a>
-                </div>
-            </div>
-        </div>
-    </div>
+               <div class="col s6 m3 l6">
+                   <a href="http://sedboyaca.gov.co/"><img class="responsive-img borde-dorado"
+                           src="./images\convenios\sedboyaca.jpg" width=250px height=180px></a>
+               </div>
+               <div class="col s6 m3 l6">
+                   <a href="http://sedboyaca.gov.co/a-estudiar-en-casa/"><img class="responsive-img borde-dorado"
+                           src="./images\convenios\ac.jpg" width=250px height=180px></a>
+               </div>
+               <div class="col s6 m3 l6">
+                   <a href="http://moodle.uptc.edu.co/articulacion/"><img class="responsive-img borde-dorado"
+                           src="./images\convenios\UPTC.jpg" width=250px height=180px></a>
+               </div>
+               <div class="col s6 m3 l6">
+                   <a href="https://compucol.co/colegios/paipaiettomasvasquezr/"><img
+                           class="responsive-img borde-dorado" src="./images\convenios\cc.jpg" width=250px
+                           height=180px></a>
+               </div>
+           </div>
+       </div>
+   </div>
 </div>
 
 <div class="section white">
-    <div class="row">
-        <h2 class="center" id="content">Destacados</h2>
-        <div class="col s12 m4 l4">
-            <br>
-            <a href="plataforma/index.php" target="_blank">
-                <div class="destacados">
-                    <img src="./images/destacados/1.jpeg" alt="Plataforma"
-                        class="image responsive-img borde-dorado">
-                    <div class="overlay">
-                        <div class="text">Plataforma de trabajos</div>
-                    </div>
-                </div>
-            </a>
-        </div>
+   <div class="row">
+       <h2 class="center" id="content">Destacados</h2>
+       <div class="col s12 m4 l4">
+           <br>
+           <a href="plataforma/index.php" target="_blank">
+               <div class="destacados">
+                   <img src="./images/destacados/1.jpeg" alt="Plataforma"
+                       class="image responsive-img borde-dorado">
+                   <div class="overlay">
+                       <div class="text">Plataforma de trabajos</div>
+                   </div>
+               </div>
+           </a>
+       </div>
 
-        <div class="col s12 m4 l4">
-            <br>
-            <a href="https://coronaviruscolombia.gov.co/Covid19/index.html" target="_blank">
-                <div class="destacados">
-                    <img src="./images/destacados/covid.jpg" alt="COVID-19" class="image responsive-img borde-dorado">
-                    <div class="overlay">
-                        <div class="text">COVID-19</div>
-                </div>
-            </a>
-            </div>
-        </div>
+       <div class="col s12 m4 l4">
+           <br>
+           <a href="https://coronaviruscolombia.gov.co/Covid19/index.html" target="_blank">
+               <div class="destacados">
+                   <img src="./images/destacados/covid.jpg" alt="COVID-19" class="image responsive-img borde-dorado">
+                   <div class="overlay">
+                       <div class="text">COVID-19</div>
+               </div>
+           </a>
+           </div>
+       </div>
 
-        <div class="col s12 m4 l4">
-            <br>
-            <a href="live.php" target="_blank">
-                <div class="destacados">
-                    <img src="./images/destacados/Emisora.jpg" alt="TOVARO Live"
-                        class="image responsive-img borde-dorado">
-                    <div class="overlay">
-                        <div class="text">Emisora Virtual</div>
-                    </div>
-                </div>
-            </a>
-        </div>
-    </div>
-    <br>
-    <br>
+       <div class="col s12 m4 l4">
+           <br>
+           <a href="live.php" target="_blank">
+               <div class="destacados">
+                   <img src="./images/destacados/Emisora.jpg" alt="TOVARO Live"
+                       class="image responsive-img borde-dorado">
+                   <div class="overlay">
+                       <div class="text">Emisora Virtual</div>
+                   </div>
+               </div>
+           </a>
+       </div>
+   </div>
+   <br>
+   <br>
 </div>
 
 
 <div class="section">
-    <div class="row">
-        <h2 class="center white-text" id="content">Perfil del Egresado</h2>
-      
-        <div class="col s12 m8 l8">
-            <br>
-            <h5 class="container" align="justify">El egresado de la Institución Educativa Técnica Tomás Vásquez Rodríguez se desempeñara en la sociedad demostrando su liderazgo, sentido de pertenencia, tolerancia, y respeto, siendo competente académica y laboralmente</h5>
-            <br>
-        </div>
-            
-        <div class="container col s12 m4 l4 blue-text center">
-            <img src=".\images\tovaro\Estudiantes.jpg" alt="Especialidades tovaro" class="borde-dorado " width=80% >
-        </div>
-    <br>
-    <br>
-    </div>
+   <div class="row">
+       <h2 class="center white-text" id="content">Perfil del Egresado</h2>
+     
+       <div class="col s12 m8 l8">
+           <br>
+           <h5 class="container" align="justify">El egresado de la Institución Educativa Técnica Tomás Vásquez Rodríguez se desempeñara en la sociedad demostrando su liderazgo, sentido de pertenencia, tolerancia, y respeto, siendo competente académica y laboralmente</h5>
+           <br>
+       </div>
+           
+       <div class="container col s12 m4 l4 blue-text center">
+           <img src=".\images\tovaro\Estudiantes.jpg" alt="Especialidades tovaro" class="borde-dorado " width=80% >
+       </div>
+   <br>
+   <br>
+   </div>
 </div>
 
 
 <div class="parallax-container">
-    <div class="parallax"><img src="./images/parallax/2.jpeg"></div>
-    <div class="row">
-        <h2 class="center" id="content">Noticias</h2>
-        <div class="col s12 m4 l4">
-            <br>
-            <a href="https://www.facebook.com/tovaropa/" target="_blank">
-                <div class="destacados">
-                    <img src="./images/destacados/facebook.jpg" alt="Especialidades tovaro"
-                        class="image responsive-img borde-dorado">
-                    <div class="overlay">
-                        <div class="text">Facebook Oficial</div>
-                    </div>
-                </div>
-            </a>
-        </div>
+   <div class="parallax"><img src="./images/parallax/2.jpeg"></div>
+   <div class="row">
+       <h2 class="center" id="content">Noticias</h2>
+       <div class="col s12 m4 l4">
+           <br>
+           <a href="https://www.facebook.com/tovaropa/" target="_blank">
+               <div class="destacados">
+                   <img src="./images/destacados/facebook.jpg" alt="Especialidades tovaro"
+                       class="image responsive-img borde-dorado">
+                   <div class="overlay">
+                       <div class="text">Facebook Oficial</div>
+                   </div>
+               </div>
+           </a>
+       </div>
 
-        <div class="col s12 m4 l4">
-            <br>
-            <a href="https://coronaviruscolombia.gov.co/Covid19/index.html" target="_blank">
-                <div class="destacados">
-                    <img src="./images/destacados/covid.jpg" alt="COVID-19" class="image responsive-img borde-dorado">
-                    <div class="overlay">
-                        <div class="text">COVID-19</div>
-                </div>
-            </a>
-            </div>
-        </div>
+       <div class="col s12 m4 l4">
+           <br>
+           <a href="https://coronaviruscolombia.gov.co/Covid19/index.html" target="_blank">
+               <div class="destacados">
+                   <img src="./images/destacados/covid.jpg" alt="COVID-19" class="image responsive-img borde-dorado">
+                   <div class="overlay">
+                       <div class="text">COVID-19</div>
+               </div>
+           </a>
+           </div>
+       </div>
 
-        <div class="col s12 m4 l4">
-            <br>
-            <a href="live.php" target="_blank">
-                <div class="destacados">
-                    <img src="./images/destacados/Emisora.jpg" alt="TOVARO Live"
-                        class="image responsive-img borde-dorado">
-                    <div class="overlay">
-                        <div class="text">Emisora Virtual</div>
-                    </div>
-                </div>
-            </a>
-        </div>
-    </div>
+       <div class="col s12 m4 l4">
+           <br>
+           <a href="live.php" target="_blank">
+               <div class="destacados">
+                   <img src="./images/destacados/Emisora.jpg" alt="TOVARO Live"
+                       class="image responsive-img borde-dorado">
+                   <div class="overlay">
+                       <div class="text">Emisora Virtual</div>
+                   </div>
+               </div>
+           </a>
+       </div>
+   </div>
 </div>
 
 

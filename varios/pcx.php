@@ -8,10 +8,10 @@ $dbname='tovaroed_dx1';
 
 
 try {
-   $conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
-   echo "Connected to $dbname at $host successfully.";
+  $conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
+  echo "Connected to $dbname at $host successfully.";
 } catch (PDOException $pe) {
-   die("Could not connect to the database $dbname :" . $pe->getMessage());
+  die("Could not connect to the database $dbname :" . $pe->getMessage());
 }
 
 
@@ -20,7 +20,7 @@ try {
 $coneccionDB = new PDO('mysql:host=localhost;dbname='.$nombredb, $usuariodb, $passwdb);
 $result = $coneccionDB->query($query);
 foreach($result as $row){
-   print_r($row);
+  print_r($row);
 }
 $coneccionDB = NULL;
 

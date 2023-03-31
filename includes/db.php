@@ -34,7 +34,7 @@ $cx = new PDO('mysql:host=localhost;dbname='.$nombredb, $usuariodb, $passwdb);
 $query = 'SELECT * FROM user';
 $result = $cx->query($query);
 foreach($result as $row){
-   print_r($row);
+  print_r($row);
 }
 $cx = NULL;
 */
