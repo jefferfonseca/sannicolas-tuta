@@ -1,89 +1,51 @@
 <?php $menu="Institución"; include('includes/header.php');?>
 
 <!--------------------- Titulo ------------------------------>
-<div class="">
-    <br />
-    <h4 class="center white-text"><b>GOBIERNO ESCOLAR</b></h4>
-    <br />
+<div class="yellow darken-3" style="padding: 5px;">
+    <h3 class="center white-text" ><b>GOBIERNO ESCOLAR</b></h3>
 </div>
 
 <!--------------------- Directivos de la institución ------------------------------>
 
-<div class="section grey">
-    <h3 class="center white-text">Directivos Docentes</h3>
+<div class="section titulo">
+    <h4 class="center white-text"><b>DIRECTIVOS DOCENTES</b></h4>
 </div>
-<br>
     
-    <div class="row white">
-        <br />
+    <div class="row white center">
         <div class="col s12 opacity">
-            <h3 class="center blue-text text-darken-4">Directivos de la institución</h3>
             <div class="row">
+                <br>
                 <!--- Rector --->
-                <div class="col s12 m6 l3 center">
-                    <img src="./images/hombre.png" alt="" width="auto" height="140" />
-                    <h5 class="blue-text text-darken-4"><b>Esp. Miguel José Pérez Cubillos</b></h5>
-                    <p class="black-text"><b>Rector</b></p>
-                </div>
-
-                <!--- Coordinador Académico --->
-                <div class="col s12 m6 l3 center">
+                <div class="col s12 m6 center">
                     <img src="./images/mujer.png" alt="" width="auto" height="140" />
-                    <h5 class="blue-text text-darken-4"><b>Esp. Martha Cecilia Gamboa Sora</b></h5>
-                    <p class="black-text"><b>Coordinadora académica</b></p>
+                    <h5 class="blue-text text-darken-4"><b>Esp. Ana Jaqueline Saganome Lopéz</b></h5>
+                    <p class="black-text"><b>Rectora</b></p>
                 </div>
-
-                <!--- Coordinador de convivencia --->
-                <div class="col s12 m6 l3 center">
-                    <img src="./images/hombre.png" alt="" width="auto" height="140" />
-                    <h5 class="blue-text text-darken-4"><b>Javier Gómez Araque</b></h5>
-                    <p class="black-text"><b>Coordinador de convivencia</b></p>
-                </div>
-
-                <!--- Coordinador de convivencia --->
-                <div class="col s12 m6 l3 center">
+                 <!--- Psicorientación --->
+                 <div class="col s12  m6 ">
                     <img src="./images/mujer.png" alt="" width="auto" height="140" />
-                    <h5 class="blue-text text-darken-4"><b>Aura Yaneth Gallo Gómez</b></h5>
-                    <p class="black-text"><b>Coordinador de primaria y sedes</b></p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--------------------- Orientación escolar ------------------------------>
-
-        <div class="row white">
-        <br />
-        <div class="col s12 opacity">
-            <h3 class="center blue-text text-darken-4">Orientación escolar</h3>
-            <div class="row">
-                <!--- Psicorientación --->
-                <div class="col s12 center">
-                    <img src="./images/mujer.png" alt="" width="auto" height="140" />
-                    <h5 class="blue-text text-darken-4"><b>Esp. Aleisa Edilsa Rojas Rosero</b></h5>
+                    <h5 class="blue-text text-darken-4"><b>Esp. Madyuri Andrea Guerrero Sánchez</b></h5>
                     <p class="black-text"><b>Psicoorientadora</b></p>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
     <!--------------------- Consejo Directivo ------------------------------>
 
-    <div class="section grey">
-    <h3 class="center white-text">Consejo directivo</h3>
+    <div class="section titulo">
+        <h4 class="center white-text"> <b>CONSEJO DIRECTIVO</b></h4>
     </div>
-    <br>
     
     <div class="row white">
         <br />
         <div class="col s12 opacity">
-            <h3 class="center blue-text text-darken-4">Representantes</h3>
             <div class="row">
                 <!--- Presidente --->
                 <div class="col s12 m6 l3 center">
                     <img src="./images/hombre.png" alt="" width="auto" height="140" />
-                    <h5 class="blue-text text-darken-4"><b>Esp. Miguel José Pérez Cubillos</b></h5>
+                    <h5 class="blue-text text-darken-4"><b>Esp. Ana Jaqueline Saganome Lopéz</b></h5>
                     <p class="black-text"><b>Presidente</b></p>
                 </div>
 
@@ -142,15 +104,13 @@
 
 <!--------------------- Consejo académico ------------------------------>
 
-<div class="section grey">
-    <h3 class="center white-text">Consejo académico</h3>
+<div class="section titulo">
+    <h4 class="center white-text"><b>CONSEJO ACADÉMICO</b></h4>
 </div>
-<br>
 
     <div class="row white">
         <br />
         <div class="col s12 opacity">
-            <h3 class="center blue-text text-darken-4">Representantes</h3>
             <div class="row">
                 <!--- Presidente --->
                 <div class="col s12 m6 l3 center">
@@ -300,10 +260,9 @@
 
 <!--------------------- Gobierno Estudiantíl ------------------------------>
     
-<div class="section grey">
+<div class="section titulo">
     <h3 class="center white-text">Gobierno Estudiantíl</h3>
 </div>
-<br>
 
 <div class="row white">
         <br />

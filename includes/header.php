@@ -32,32 +32,32 @@
            </div>
            <nav class="green darken-4" id="myHeader">
                <div class="nav-wrapper">
-      <a class="hide" id="logo"><img style="padding: 10px;" src="./images/Escudo.png" alt="sannicolas"
-                           width=auto height=100%></a>
+                <a class="hide" id="logo"><img style="padding: 10px;" src="./images/Escudo.png" 
+                alt="sannicolas" width=auto height=100%></a>
                    <a href="#" data-target="menu-responsive" class="sidenav-trigger right">
                        <i class="material-icons">menu</i>
                    </a>
                    <!--lista de menus de navegación-->
                    <ul class="right hide-on-med-and-down">
-                       <li class="<?php if($menu=="Inicio"){echo"active";}?>"><a href="index.php">Inicio</a></li>
-                       <li class="<?php if($menu=="Institución"){echo"active";}?>"><a href="#" class="dropdown-trigger"
+                       <li class="<?php if ($menu == "Inicio") {echo "active";}?>"><a href="index.php">Inicio</a></li>
+                       <li class="<?php if ($menu == "Institución") {echo "active";}?>"><a href="#" class="dropdown-trigger"
                                data-target="institucion">
-                               Institución                      
+                               Institución
                                <i class="material-icons right">arrow_drop_down</i>
                            </a>
                        </li>
-                       <li class="<?php if($menu=="TOVARO"){echo"active";}?>"><a href="live.php" target="_blank">Radio</a></li>
-                       <li class="<?php if($menu=="Especialidades"){echo"active";}?>"><a href="#" class="dropdown-trigger"
+                       <li class="<?php if ($menu == "TOVARO") {echo "active";}?>"><a href="live.php" target="_blank">Radio</a></li>
+                       <li class="<?php if ($menu == "Especialidades") {echo "active";}?>"><a href="#" class="dropdown-trigger"
                                data-target="esp">
                                Especialidades
                                <i class="material-icons right">arrow_drop_down</i>
                            </a>
                        </li>
                        <li><a href="https://compucol.co/colegios/tutaiesannicolas/"  target="_blank">Sistema de Notas</a></li>
-                       <li class="<?php if($menu=="Contacto"){echo"active";}?>"><a href="contacto.php">Contáctenos</a></li>
+                       <li class="<?php if ($menu == "Contacto") {echo "active";}?>"><a href="contacto.php">Contáctenos</a></li>
                    </ul>
                </div>
-           </nav>
+           </nav> 
 <!--Submenus NO responsives -->
            <!-- Lista de Institución -->
            <ul id="institucion" class="dropdown-content" style="background-color: transparent;">
@@ -92,7 +92,7 @@
 
            <!-- Lista de especialidades -->
            <ul id="esp-responsive" class="dropdown-content" style="background-color: transparent;">
-               <li>></li>    
+               <li>></li>
                <li><a href="redes.php" class="white">Redes y sistemas</a></li>
                <li><a href="salud.php" class="white">Salud</a></li>
                <li><a href="turismo.php" class="white">Turismo</a></li>
@@ -100,21 +100,21 @@
 
        <!-- Sidenav -->
            <ul class="sidenav" id="menu-responsive">
-               <li class="<?php if($menu=="Inicio"){echo"active";}?>"><a href="index.php">Inicio</a></li>
-               <li class="<?php if($menu=="Institución"){echo"active";}?>"><a href="#" class="dropdown-trigger"
+               <li class="<?php if ($menu == "Inicio") {echo "active";}?>"><a href="index.php">Inicio</a></li>
+               <li class="<?php if ($menu == "Institución") {echo "active";}?>"><a href="#" class="dropdown-trigger"
                        data-target="institucion-responsive">
                        Institución
                        <i class="material-icons right">arrow_drop_down</i>
                    </a>
                </li>
-               <li class="<?php if($menu=="TOVARO"){echo"active";}?>"><a href="live.php" target="_blank">Radio</a></li>
-               <li class="<?php if($menu=="Especialidades"){echo"active";}?>"><a href="#" class="dropdown-trigger"
+               <li class="<?php if ($menu == "TOVARO") {echo "active";}?>"><a href="live.php" target="_blank">Radio</a></li>
+               <li class="<?php if ($menu == "Especialidades") {echo "active";}?>"><a href="#" class="dropdown-trigger"
                        data-target="esp-responsive">
                        Especialidades
                        <i class="material-icons right">arrow_drop_down</i>
                    </a>
                </li>
                <li><a href="https://compucol.co/colegios/tutaiesannicolas/" target="_blank">Sistema de Notas</a></li>
-               <li class="<?php if($menu=="Contacto"){echo"active";}?>"><a href="contacto.php">Contáctenos</a></li></ul>
+               <li class="<?php if ($menu == "Contacto") {echo "active";}?>"><a href="contacto.php">Contáctenos</a></li></ul>
        </div>
    </header>

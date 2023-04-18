@@ -6,57 +6,24 @@
    <h4 class="center white-text"><b>SEDES</b></h4>
    <br>
 </div>
-
-<!--------------------- Sedes Urbanas ------------------------------>
-<div class="section grey">
-   <h3 class="center white-text">Sedes urbanas</h3>
-</div>
-<br>
-
-<div class="row white">
-       <div class="col s12 opacity">
-           <div class="row">
-           <br>
-
-               <!--- Sede Principal --->
-               <div class="col s12 m6 center ">
-                   <img src="./images/hombre.png" alt="" width= auto height= 140 >
-                   <h5 class="blue-text text-darken-4"><b>Sede Principal</b></h5>
-                   <p class="black-text" style="margin:5px 0;"><b>calle#22 19-12 / Centro</b></p>
-               </div>
-
-                <!--- Sede Alejandra López --->
-                <div class="col s12 m6 center ">
-                   <img src="./images/mujer.png" alt="" width= auto height= 140 >
-                   <h5 class="blue-text text-darken-4"><b>Sede Alejandra López</b></h5>
-                   <p class="black-text" style="margin:5px 0;"><b>calle#23 19-11 / Centro</b></p>
-               </div>
-           </div>
-       <br>
-       </div>
-   </div>
-</div>
-
 <!--------------------- Sedes Rurales ------------------------------>
-<div class="section grey">
+<div class="section yellow darken-3">
    <h3 class="center white-text">Sedes rurales</h3>
 </div>
 <br>
-
-
  <div class="row white">
        <div class="col s12 opacity">
            <div class="row">
            <br>
 
-               <!--- Sede Marcura --->
+               <!--- Sede Central --->
                <div class="col s12 m6 l4 center ">
                    <img src="./images/hombre.png" alt="" width= auto height= 140 >
                    <h5 class="blue-text text-darken-4"><b>Sede Marcura</b></h5>
                    <p class="black-text" style="margin:5px 0;"><b>Vereda Marcura</b></p>
                </div>
               
-               <!--- Sede Sativa --->
+               <!--- Sede Siderurjica --->
                <div class="col s12 m6 l4 center ">
                    <img src="./images/mujer.png" alt="" width= auto height= 140 >
                    <h5 class="blue-text text-darken-4"><b>Sede Sativa</b></h5>

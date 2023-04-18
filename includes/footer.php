@@ -70,7 +70,7 @@
 
 </script>
 
-<footer class="page-footer blue-grey darken-3">
+<footer class="page-footer blue-grey darken-3"  style="border-top: 4px solid #ffc400;">
    <div class="container">
        <div class="row">
            <!-- Escudo del colegio -->
