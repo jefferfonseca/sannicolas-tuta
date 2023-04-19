@@ -1,6 +1,6 @@
 <?php 
 
-$myemail = 'tovaropa@gmail.com';
+$myemail = 'secretaria@ietsannicolas.edu.co, jefferfonseca@ietsannicolas.edu.co';
 //$myemail = 'jefferfonseca@gmail.com, jefferfonseca@tovaro.edu.co';
 $name = $_POST['nombre'];
 $email = $_POST['correo'];
@@ -10,7 +10,7 @@ $message = $_POST['mensaje'];
 
 //datos para el correo
 $to = $myemail;
-$email_subject = "Contacto desde tovaro.edu.co: $subject";
+$email_subject = "Mensaje desde ietsannicolas.edu.co: $subject";
 $email_body = "Nombre: $name \n Correo: $email \n Telefono: $telefono \n Mensaje: \n $message";
 $headers = "From: $email";
 

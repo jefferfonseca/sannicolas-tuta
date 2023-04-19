@@ -40,9 +40,7 @@
                    <!--lista de menus de navegación-->
                    <ul class="right hide-on-med-and-down">
                        <li class="<?php if ($menu == "Inicio") {echo "active";}?>"><a href="index.php">Inicio</a></li>
-                       <li class="<?php if ($menu == "Institución") {echo "active";}?>"><a href="#" class="dropdown-trigger"
-                               data-target="institucion">
-                               Institución
+                       <li><a href="#" class="dropdown-trigger"data-target="institucion">Institución
                                <i class="material-icons right">arrow_drop_down</i>
                            </a>
                        </li>
@@ -62,41 +60,41 @@
            <!-- Lista de Institución -->
            <ul id="institucion" class="dropdown-content" style="background-color: transparent;">
                <li></li>
-               <li><a href="nosotros.php" class="white">Reseña Histórica</a></li>
-               <li><a href="simbolos.php" class="white">Simbolos Institucionales</a></li>
-               <li><a href="sedes.php" class="white">Sedes</a></li>
-               <li><a href="docentes.php" class="white">Docentes</a></li>
-               <li><a href="gobierno-escolar.php" class="white">Gobierno Escolar</a></li>
-               <li><a href="proyectos.php" class="white">Proyectos</a></li>
-               <li><a href="https://tovaro2020.wixsite.com/psicoorientacion" class="white" target="_blank">Sicoorientación</a></li>
+               <li class="li"><a   href="nosotros.php" class="white-text">Reseña Histórica</a></li>
+               <li class="li"><a href="simbolos.php" class="white-text">Simbolos Institucionales</a></li>
+               <li class="li"><a href="sedes.php" class="white-text">Sedes</a></li>
+               <li class="li"><a href="docentes.php" class="white-text">Docentes</a></li>
+               <li class="li"><a href="gobierno-escolar.php" class="white-text">Gobierno Escolar</a></li>
+               <li class="li"><a href="proyectos.php" class="white-text">Proyectos</a></li>
+               <li class="li"><a href="https://tovaro2020.wixsite.com/psicoorientacion" class="white-text" target="_blank">Sicoorientación</a></li>
            </ul>
            <!-- Lista de especialidades -->
            <ul id="esp" class="dropdown-content" style="background-color: transparent;">
                <li></li>
-               <li><a href="redes.php" class="white">Redes y sistemas</a></li>
-               <li><a href="salud.php" class="white">Salud</a></li>
-               <li><a href="turismo.php" class="white">Turismo</a></li>
+               <li class="li"><a href="redes.php" class="white-text">Redes y sistemas</a></li>
+               <li class="li"><a href="salud.php" class="white-text">Salud</a></li>
+               <li class="li"><a href="turismo.php" class="white-text">Turismo</a></li>
            </ul>
        <!-- Submenus responsives -->
             <!-- Lista de Institución -->
             <ul id="institucion-responsive" class="dropdown-content" style="background-color: transparent;">
-               <li>></li>
-               <li><a href="nosotros.php" class="white">Reseña Histórica</a></li>
-               <li><a href="simbolos.php" class="white">Simbolos Institucionales</a></li>
-               <li><a href="sedes.php" class="white">Sedes</a></li>
-               <li><a href="docentes.php" class="white">Docentes</a></li>
-               <li><a href="gobierno-escolar.php" class="white">Gobierno Escolar</a></li>
-               <li><a href="proyectos.php" class="white">Proyectos</a></li>
-               <li><a href="https://tovaro2020.wixsite.com/psicoorientacion" class="white" target="_blank">Sicoorientación</a></li>
-           </ul>
+            <li></li>
+               <li class="li"><a   href="nosotros.php" class="white-text">Reseña Histórica</a></li>
+               <li class="li"><a href="simbolos.php" class="white-text">Simbolos Institucionales</a></li>
+               <li class="li"><a href="sedes.php" class="white-text">Sedes</a></li>
+               <li class="li"><a href="docentes.php" class="white-text">Docentes</a></li>
+               <li class="li"><a href="gobierno-escolar.php" class="white-text">Gobierno Escolar</a></li>
+               <li class="li"><a href="proyectos.php" class="white-text">Proyectos</a></li>
+               <li class="li"><a href="https://tovaro2020.wixsite.com/psicoorientacion" class="white-text" target="_blank">Sicoorientación</a></li>
+         </ul>
 
            <!-- Lista de especialidades -->
            <ul id="esp-responsive" class="dropdown-content" style="background-color: transparent;">
-               <li>></li>
-               <li><a href="redes.php" class="white">Redes y sistemas</a></li>
-               <li><a href="salud.php" class="white">Salud</a></li>
-               <li><a href="turismo.php" class="white">Turismo</a></li>
-           </ul>
+           <li></li>
+               <li class="li"><a href="redes.php" class="white-text">Redes y sistemas</a></li>
+               <li class="li"><a href="salud.php" class="white-text">Salud</a></li>
+               <li class="li"><a href="turismo.php" class="white-text">Turismo</a></li>
+          </ul>
 
        <!-- Sidenav -->
            <ul class="sidenav" id="menu-responsive">

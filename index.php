@@ -101,10 +101,10 @@
        <h2 class="center white-text" id="content">Perfil del Egresado</h2>
        <div class="col s12 m8 l8">
            <br>
-           <h5 class="container" align="justify">El egresado de la Institución Educativa Técnica Tomás Vásquez Rodríguez se desempeñara en la sociedad demostrando su liderazgo, sentido de pertenencia, tolerancia, y respeto, siendo competente académica y laboralmente</h5>
+           <h5 class="container" align="justify">El egresado de la Institución Educativa San Nicolás - Tuta se desempeñara en la sociedad demostrando su liderazgo, sentido de pertenencia, tolerancia, y respeto, siendo competente académica y laboralmente.</h5>
            <br>
        </div>
-       <div class="container col s12 m4 l4 blue-text center">
+       <div class="container col s12 m4 l4 green-text center">
            <img src="./images/slider/2.jpg" alt="Especialidades tovaro" class="borde-dorado " width=80% >
        </div>
    <br>

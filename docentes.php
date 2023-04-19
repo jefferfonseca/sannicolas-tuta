@@ -43,7 +43,7 @@
                        <!--- Docentes Directivos --->
                        <div class="col s12 m7 l2 center ">
                            <img src="./images/<?php echo $docente[0]?>.png" alt="" width= auto height= 140 >
-                           <h5 class="blue-text text-darken-4"><b><?php echo $docente[1] .' ' . $docente[2]?></b></h5>
+                           <h5 class="green-text text-darken-4"><b><?php echo $docente[1] .' ' . $docente[2]?></b></h5>
                            <!--- crea el link directo para WhatsApp --->
                            <p class="black-text" style="margin: 0;"><b>Celular: </b><a href="https://wa.me/+57<?php echo $docente[3]?>" target="_blank">+57<?php echo $docente[3]?></a></p>
                            <p class="black-text" style="margin: 0;"><b>E-mail: </b><?php echo $docente[4]?></p>
@@ -103,7 +103,7 @@
                        <!--- Docentes Secundaria --->
                        <div class="col s12 m6 l4 center ">
                            <img src="./images/<?php echo $docente[0]?>.png" alt="" width= auto height= 140 >
-                           <h5 class="blue-text text-darken-4"><b><?php echo $docente[1] .' ' . $docente[2]?></b></h5>
+                           <h5 class="green-text text-darken-4"><b><?php echo $docente[1] .' ' . $docente[2]?></b></h5>
                            <!--- crea el link directo para WhatsApp --->
                            <p class="black-text" style="margin: 0;"><b>Celular: </b><a href="https://wa.me/+57<?php echo $docente[3]?>" target="_blank">+57<?php echo $docente[3]?></a></p>
                            <p class="black-text" style="margin: 0;"><b>E-mail: </b><?php echo $docente[4]?></p>
@@ -161,7 +161,7 @@
                        <!--- Docente Secundaria --->
                        <div class="col s12 m6 l4 center ">
                            <img src="./images/<?php echo $docente[0]?>.png" alt="" width= auto height= 140 >
-                           <h5 class="blue-text text-darken-4"><b><?php echo $docente[1] .' ' . $docente[2]?></b></h5>
+                           <h5 class="green-text text-darken-4"><b><?php echo $docente[1] .' ' . $docente[2]?></b></h5>
                            <!--- crea el link directo para WhatsApp --->
                            <p class="black-text" style="margin: 0;"><b>Celular: </b><a href="https://wa.me/+57<?php echo $docente[3]?>" target="_blank">+57<?php echo $docente[3]?></a></p>
                            <p class="black-text" style="margin: 0;"><b>E-mail: </b><?php echo $docente[4]?></p>
@@ -219,7 +219,7 @@
                        <!--- Docente Sedes --->
                        <div class="col s12 m6 l4 center ">
                            <img src="./images/<?php echo $docente[0]?>.png" alt="" width= auto height= 140 >
-                           <h5 class="blue-text text-darken-4"><b><?php echo $docente[1] .' ' . $docente[2]?></b></h5>
+                           <h5 class="green-text text-darken-4"><b><?php echo $docente[1] .' ' . $docente[2]?></b></h5>
                            <!--- crea el link directo para WhatsApp --->
                            <p class="black-text" style="margin: 0;"><b>Celular: </b><a href="https://wa.me/+57<?php echo $docente[3]?>" target="_blank">+57<?php echo $docente[3]?></a></p>
                            <p class="black-text" style="margin: 0;"><b>E-mail: </b><?php echo $docente[4]?></p>

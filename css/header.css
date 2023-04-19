@@ -1,6 +1,6 @@
 :root {
- --verde: #1b5e20; /* green darken-4*/
- --amarillo: #ffea00 ; /* yellow darken-3*/
+ --verde: #183a1d; /* green darken-4*/
+ --amarillo: #ffc400 ; /* yellow darken-3*/
 }
 body {
  /* background-image: url("../images/fondo.png"); */
@@ -46,16 +46,41 @@ background-color: transparent;
 }
 
 ul>li:hover{
- background-color: #ffea00;
+ background-color: #ffc400;
 }
 
 
-/* On smaller screens, decrease text size */
-/*para fijar el header con el nombre del colegio  el escudo
-@media only screen and (max-width: 300px) {
- header {
-   position: fixed;
-   top: 0;
-   width: 100%;
+ .li {
+   background-color: #183a1d;
  }
-} */
+ 
+ .li > a:hover {
+   background-color: #fac213;
+  }
+ 
+ 
+  .page-footer {
+   padding-top: 20px;
+   color: #fff;
+   border-top: 4px solid #ffc400;
+   background-color: #212121;
+  }
+  
+  .page-footer .footer-copyright {
+   overflow: hidden;
+   min-height: 50px;
+   display: flex;
+   color: rgba(255, 255, 255, 0.8);
+   background-color: #181717;
+  }
+ 
+ 
+ /* On smaller screens, decrease text size */
+ /*para fijar el header con el nombre del colegio  el escudo
+ @media only screen and (max-width: 300px) {
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+ } */

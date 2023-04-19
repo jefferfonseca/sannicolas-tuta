@@ -1,21 +1,21 @@
 <?php $menu="Contacto"; include('includes/header.php');?>
 <br>
-<div class="row blue-text text-darken-4">
+<div class="row green-text text-darken-4">
 
    <div class="col s12 m9 l7 offset-m3 offset-l2 white"style="border-radius:50px;">
 
        <div class="row">
 
-               <div class="col s12 m5 l4 center blue darken-4 white-text">
+               <div class="col s12 m5  center green darken-4 white-text">
                    <br><br><br>
                    <img src="./images/hombre.png" width="150px" height="auto" alt="">
-                   <h4>Información de Contacto</h4>
-                   <p>tovaropa@gmail.com</p>
-                   <p>(+57) 310 262 3169</p>
+                   <h4><b>Información de Contacto</b></h4>
+                   <p>secretaria@ietsannicolas.edu.co</p>
+                   <p>(+57) 321 222 2082</p>
                    <br><br><br><br>
                </div>
 
-               <div class="col s12 m7 l8">
+               <div class="col s12 m7">
            
                <form action="enviar.php" method="post" class="container center">
                    <h5>Envia un mensaje</h5>
@@ -55,7 +55,7 @@
                            <label for="Mensaje">Mensaje</label>
                        </div>
 
-                       <input type="submit" value="Enviar" id="btnSend" class="btn blue darken-4">
+                       <input type="submit" value="Enviar" id="btnSend" class="btn green darken-4">
                    </div>
                </form>
            </div>

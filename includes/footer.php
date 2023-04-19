@@ -2,18 +2,18 @@
 
 
 <?php
- /*  include('includes/db.php');
-   $query = "UPDATE Visitas SET Contador = Contador + 1 WHERE Id = '1'";
-   $result = $cx->query($query);
+/*  include('includes/db.php');
+$query = "UPDATE Visitas SET Contador = Contador + 1 WHERE Id = '1'";
+$result = $cx->query($query);
 
-   $query = "SELECT * FROM Visitas";
-   $result = $cx->query($query);
-   $cx = NULL;
-   $row = NULL;
-   foreach($result as $row){     
-   echo "<h4 class='center-align'>Número de visitas: 0000" . $row['Contador'] . "</h4>";
-   }*/
-        
+$query = "SELECT * FROM Visitas";
+$result = $cx->query($query);
+$cx = NULL;
+$row = NULL;
+foreach($result as $row){
+echo "<h4 class='center-align'>Número de visitas: 0000" . $row['Contador'] . "</h4>";
+}*/
+
 ?>
 
 
@@ -70,7 +70,7 @@
 
 </script>
 
-<footer class="page-footer blue-grey darken-3"  style="border-top: 4px solid #ffc400;">
+<footer class="page-footer">
    <div class="container">
        <div class="row">
            <!-- Escudo del colegio -->
@@ -79,7 +79,9 @@
 
            <!-- Redes Sociales -->
            <div class="col s12 m4 center">
-               <a href="https://web.facebook.com/ietsannicolas" target="_blank"><img src="./images/redes/fb.png" style="border-radius: 50%; width: 50px; height: 50px;" alt="@tovaropa" /></a>
+               <a href="https://web.facebook.com/ietsannicolas" target="_blank">
+                <img src="./images/redes/fb.png" style="border-radius: 50%; width: 90px; height: 50px;" 
+                alt="@ietsannicolas" /></a>
            </div>
            <!-- Contacto -->
            <div class="col s12 m4">
@@ -94,11 +96,10 @@
                    <br />
                </span>
            </div>
-       </div>
+           </div>
    </div>
-   <div class="col s12 blue-grey darken-1">
-       <div class="footer-copyrigh center">
-         © 2023 | &lt; Diseño Ing. Jeferson Fonseca Soto &gt;
+       <div class="footer-copyright valign-wrapper">
+         <h6>© 2023 | <b>Design:</b> <a href="https://jefferfonseca.github.io/curriculum-vitae/inicio" target="_blank">&lt;Ing. Jeferson Fonseca Soto&gt;</a></h6>
        </div>
-   </div>
+   
 </footer>

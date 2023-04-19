@@ -31,7 +31,7 @@
                    <p>"Con pensamiento triunfador, buscamos la excelencia"</p>
                </div>
            </div>
-           <nav class="blue-grey lighten-1" id="myHeader">
+           <nav class="green-grey lighten-1" id="myHeader">
                <div class="nav-wrapper">
 
                    <h4 href="#" class="center-align"><?php echo $periodo ?></h4>
@@ -190,7 +190,7 @@ $code = "";
        }
    }
    </script>
-   <footer class="page-footer blue-grey darken-3">
+   <footer class="page-footer">
        <div class="container">
            <div class="row ">
 
@@ -213,7 +213,7 @@ $code = "";
                </div>
            </div>
        </div>
-       <div class="col s12 blue-grey darken-1">
+       <div class="col s12 green-grey darken-1">
            <div class="footer-copyrigh center">
 
            </div>

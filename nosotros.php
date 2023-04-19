@@ -36,9 +36,9 @@
 
 <!-- Misión -->
 <div class="row">
-    <div class="col s12 m6 container">
+    <div class="col s12 m6 ">
         <h1 align="center">Misión</h1>
-        <p align="justify" class = "container">
+        <p align="justify" style = "padding: 5px 25px">
            La institución educativa san Nicolás, propicia la prestación de servicio público educativo
            en los niveles de preescolar, básica, media y técnica, fortaleciendo la educación integral
            e inclusiva bajo los principios de cobertura, calidad, eficiencia y equidad, desarrollando
@@ -49,25 +49,29 @@
     </div>
 
     <div class="col s12 m6 center ">
-        <img src=".\images\tovaro\m.png"  id="content" width=50%>
+        <img src=".\images\tovaro\m.png"  id="content" width=60%>
     </div>
 </div>
 
 
 <!-- Visión -->
-<div class="row titulo">
+<div class="row titulo ">
    
-    <div class="col s12 m6 center">
-        <img src=".\images\tovaro\m.png"  id="content" width=50%>
+    <div class="col s12 m6 center hide-on-small-only">
+        <img src=".\images\tovaro\m.png"  id="content" width=60%>
     </div>
     
-    <div class="col s12 m6 container">
+    <div class="col s12 m6">
         <h1 align="center">Visión</h1>
-        <p align="justify" class = "container">
+        <p align="justify" style = "padding: 5px 25px">
             La Institución educativa san Nicolás del municipio de Tuta entregará a la sociedad, jóvenes
            ciudadanos y ciudadanas competentes, para asumir retos y posiciones transformadoras en su
            contexto natural y sociocultural.
         </p>
+    </div>
+
+    <div class="col s12 m6 center hide-on-med-and-up">
+        <img src=".\images\tovaro\m.png"  id="content" width=60%>
     </div>
 </div>
 

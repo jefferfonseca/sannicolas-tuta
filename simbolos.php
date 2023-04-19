@@ -3,7 +3,7 @@
 <div class="row white">
    <div  class="col s11 m9">
        <br />
-       <h4 class="center blue-text text-darken-4 container"><b>SIMBOLOS INSTITUCIONALES</b></h4>
+       <h4 class="center green-text text-darken-4 container"><b>SIMBOLOS INSTITUCIONALES</b></h4>
        <br />
    </div>
 
@@ -15,10 +15,10 @@
            <div class="row">
                <!--titulo de articulo-->
                <div class="col s12 center">
-                   <h5 class="blue-text text-darken-4"><b>Bandera</b></h5>
+                   <h5 class="green-text text-darken-4"><b>Bandera</b></h5>
                    <p class="black-text left-align">Significado</p>
                    <!--linea azul decorativa-->
-                   <div class="col s12 blue darken-4" style="font-size: 6px;"><br /></div>
+                   <div class="col s12 green darken-4" style="font-size: 6px;"><br /></div>
                        <br>
                        <img src="./images/simbolos/bandera.png" class="responsive-img" alt="bandera">
                        <br>
@@ -60,12 +60,12 @@
            <div class="row">
                <!--titulo de articulo-->
                <div class="col s12 center">
-                   <h5 class="blue-text text-darken-4"><b>Escudo</b></h5>
+                   <h5 class="green-text text-darken-4"><b>Escudo</b></h5>
                    <p class="black-text left-align">Significado</p>
                    <!--linea azul decorativa-->
-                   <div class="col s12 blue darken-4" style="font-size: 6px;"><br /></div>
+                   <div class="col s12 green darken-4" style="font-size: 6px;"><br /></div>
                        <br>
-                       <img src=".\images\simbolos\escudo.png" width="330px" heigth="330px"  alt="bandera">
+                       <img src=".\images\simbolos\Escudo.png" width="330px" heigth="330px"  alt="bandera">
                        <br>
                        <p class="black-text" align="justify">
                            El escudo del plantel fue establecido mediante acurdo Nº. 004 de octubre 22 de
@@ -121,10 +121,10 @@
            <div class="row">
                <!--titulo de articulo-->
                <div class="col s12 center">
-                   <h5 class="blue-text text-darken-4"><b>Himno de la Institución</b></h5>
+                   <h5 class="green-text text-darken-4"><b>Himno de la Institución</b></h5>
 
                    <!--linea azul decorativa-->
-                   <div class="col s12 blue darken-4" style="font-size: 6px;"><br /></div>
+                   <div class="col s12 green darken-4" style="font-size: 6px;"><br /></div>
                        <audio src="./images/simbolos/Himno.mpeg" controls preload></audio>
                        <br>
                        <!--Col 1-->
@@ -224,21 +224,21 @@
            <div class="row center">
               
                <!-- Titulo principal -->
-               <h5 class="blue-text text-darken-4"><b>Uniformes</b></h5>
+               <h5 class="green-text text-darken-4"><b>Uniformes</b></h5>
 
                <!--linea azul decorativa-->
-               <div class="col s12 blue darken-4" style="font-size: 6px;"><br /></div>
+               <div class="col s12 green darken-4" style="font-size: 6px;"><br /></div>
 
                <br>
                
                <!-- Uniformes de diario -->
-               <h5 class="blue-text text-darken-4"><b>UNIFORMES DE DIARIO</b></h5>
+               <h5 class="green-text text-darken-4"><b>UNIFORMES DE DIARIO</b></h5>
 
                <!--Col Masculino-->
                <div class="col s12 m6">
                    <br>
                    
-                   <h5 class="blue-text text-darken-4">Masculino</h5>
+                   <h5 class="green-text text-darken-4">Masculino</h5>
                    
                    <br>
                    <img src="./images/simbolos/2.png" width="200px" heigth="200px">
@@ -259,7 +259,7 @@
                <div class="col s12 m6">
                    <br>
                    
-                   <h5 class="blue-text text-darken-4">Femenino</h5>
+                   <h5 class="green-text text-darken-4">Femenino</h5>
                    
                    <br>
                    <img src="./images/simbolos/1.png" width="230px" heigth="230px" alt="femenino">
@@ -287,7 +287,7 @@
            <br>
                
                <!-- Uniformes de edu. física -->
-               <h5 class="blue-text text-darken-4"><b>UNIFORMES DE EDUCACIÓN FÍSICA.</b></h5>
+               <h5 class="green-text text-darken-4"><b>UNIFORMES DE EDUCACIÓN FÍSICA.</b></h5>
 
                <div class="col s12">
 

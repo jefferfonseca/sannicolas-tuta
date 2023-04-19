@@ -3,7 +3,7 @@
 <div class="row white">
    <div  class="col s11 m9">
        <br />
-       <h4 class="center blue-text text-darken-4 container"><b>PROYECTOS INSTITUCIONALES</b></h4>
+       <h4 class="center green-text text-darken-4 container"><b>PROYECTOS INSTITUCIONALES</b></h4>
        <br />
    </div>
 
@@ -13,10 +13,10 @@
            <div class="row">
                <!--titulo de articulo-->
                <div class="col s12 m6">
-                   <h5 class="blue-text text-darken-4"><b>Proyecto pedagógico de democracia y derechos humanos 2020</b></h5>
+                   <h5 class="green-text text-darken-4"><b>Proyecto pedagógico de democracia y derechos humanos 2020</b></h5>
                    <p class="black-text">Comité de democracia</p>
                    <!--linea azul decorativa-->
-                   <div class="col s12 blue darken-4" style="font-size: 6px;"><br /></div>
+                   <div class="col s12 green darken-4" style="font-size: 6px;"><br /></div>
                    <p class="black-text" align="justify">
                        Problemática que convoca: La obligatoriedad del gobierno escolar con participación democrática según Art. 142 de la ley 115 de 1994 y Art. 19 del decreto 1860 de 1994. El derecho constitucional de participar en las
                        decisiones de la escuela le permite a los padres y madres de familia asumir la responsabilidad que tienen en la educación de sus hijos y es una posibilidad de ejercicio de la democracia al interior de la institución
@@ -52,10 +52,10 @@
            <div class="row">
                <!--titulo de articulo-->
                <div class="col s12">
-                   <h5 class="blue-text text-darken-4"><b>Competencias a desarrollar.</b></h5>
+                   <h5 class="green-text text-darken-4"><b>Competencias a desarrollar.</b></h5>
 
                    <!--linea azul decorativa-->
-                   <div class="col s12 blue darken-4" style="font-size: 6px;"><br /></div>
+                   <div class="col s12 green darken-4" style="font-size: 6px;"><br /></div>
 
                    <!--Col 1-->
                    <div class="col s12 m4 center black-text">
@@ -105,10 +105,10 @@
            <div class="row">
                <!--titulo de articulo-->
                <div class="col s12 m6">
-                   <h5 class="blue-text text-darken-4"><b>Proyecto de orientación vocacional y proyecto de vida</b></h5>
+                   <h5 class="green-text text-darken-4"><b>Proyecto de orientación vocacional y proyecto de vida</b></h5>
                    <p class="black-text">Psicoorientación.</p>
                    <!--linea azul decorativa-->
-                   <div class="col s12 blue darken-4" style="font-size: 6px;"><br /></div>
+                   <div class="col s12 green darken-4" style="font-size: 6px;"><br /></div>
                    <p class="black-text" align="justify">
                        Lo correspondiente a Orientación Vocacional se diseñará de tal forma que abarque desde grado cero a undécimo, realizando actividades periódicas que permitan ir sembrando la inquietud en la población escolar de la
                        Institución Educativa desde edades tempranas, para ello se trabajara desde el área de ética en apoyo con los directores de grado, docentes de la materia y padres de familia, para ello se plantean las siguientes
@@ -162,10 +162,10 @@
            <div class="row">
                <!--titulo de articulo-->
                <div class="col s12 m6">
-                   <h5 class="blue-text text-darken-4"><b>Proyecto de dirección de grado</b></h5>
+                   <h5 class="green-text text-darken-4"><b>Proyecto de dirección de grado</b></h5>
 
                    <!--linea azul decorativa-->
-                   <div class="col s12 blue darken-4" style="font-size: 6px;"><br /></div>
+                   <div class="col s12 green darken-4" style="font-size: 6px;"><br /></div>
                    <p class="black-text" align="justify">
                        Teniendo en cuenta la situaciones vividas por los estudiantes en los diferentes momentos, que como ser humano debe compartir y vivenciar tanto en clases, fuera de ellas, en descansos, en la familia, su comunidad y
                        otros espacios de acción se evidencia la necesidad de implementar el desarrollo de actividades que contribuyan al mejoramiento de la convivencia, la cual conlleve a una mejor calidad de vida y formación integral como
@@ -206,10 +206,10 @@
            <div class="row">
                <!--titulo de articulo-->
                <div class="col s12 m6">
-                   <h5 class="blue-text text-darken-4"><b>Proyecto de escuela para padres</b></h5>
+                   <h5 class="green-text text-darken-4"><b>Proyecto de escuela para padres</b></h5>
 
                    <!--linea azul decorativa-->
-                   <div class="col s12 blue darken-4" style="font-size: 6px;"><br /></div>
+                   <div class="col s12 green darken-4" style="font-size: 6px;"><br /></div>
                    <p class="black-text" align="justify">
                        Desarrollar procesos educativos de calidad exige la creación y promoción de espacios donde, no solamente los estudiantes, sino además los padres de familia y la comunidad en general, tengan la posibilidad de
                        construir aprendizajes a partir de cada una de las vivencias que de manera paulatina se generan en el diálogo continuo con el otro. Pensar en el qué, el para qué y el cómo de aquel pilar de la educación donde Jacques
@@ -245,10 +245,10 @@
            <div class="row">
                <!--titulo de articulo-->
                <div class="col s12 m6">
-                   <h5 class="blue-text text-darken-4"><b>Proyecto institucional de atención a padres de familia</b></h5>
+                   <h5 class="green-text text-darken-4"><b>Proyecto institucional de atención a padres de familia</b></h5>
 
                    <!--linea azul decorativa-->
-                   <div class="col s12 blue darken-4" style="font-size: 6px;"><br /></div>
+                   <div class="col s12 green darken-4" style="font-size: 6px;"><br /></div>
                    <p class="black-text" align="justify">
                        La integración del colegio y la familia permite una coherencia en la información y educación que se imparte y, por tanto, en la construcción y puesta en práctica de un proyecto común. La comunidad debe tener una alta
                        participación en la vida institucional, y dentro de ella, en el proceso de enseñanza aprendizaje de sus hijos, para poder realizar acciones conjuntas que propendan por el éxito escolar y el desarrollo personal de
@@ -307,10 +307,10 @@
            <div class="row">
                <!--titulo de articulo-->
                <div class="col s12 m6">
-                   <h5 class="blue-text text-darken-4"><b>Proyecto de aprovechamiento del tiempo libre</b></h5>
+                   <h5 class="green-text text-darken-4"><b>Proyecto de aprovechamiento del tiempo libre</b></h5>
 
                    <!--linea azul decorativa-->
-                   <div class="col s12 blue darken-4" style="font-size: 6px;"><br /></div>
+                   <div class="col s12 green darken-4" style="font-size: 6px;"><br /></div>
                    <p class="black-text" align="justify">
                        La juventud actual, atraviesa por diferentes situaciones que dispersan la atención en otras actividades inoficiosas y poco productivas. Es el caso del mal uso del celular y los video juegos. De otra parte, algunas
                        situaciones de índole familiar que los afecta emocional y actitudinal a los estudiantes.
@@ -373,7 +373,7 @@
 
    <!-- Table of Contents -->
    <div class="col hide-on-small-only m3">
-       <div class="toc-wrapper pinned" style="top: 23%;">
+       <div class="toc-wrapper pinned" style="top: 25%;">
            <div style="height: 1px;">
                <ul class="section table-of-contents">
                    <li><a href="#democracia">Democracia y derecho humanos</a></li>

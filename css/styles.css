@@ -1,5 +1,5 @@
 :root {
-   --verde: #1b5e20; /* green darken-4*/
+   --verde: #183a1d; /* green darken-4*/
    --amarillo: #ffea00 ; /* yellow darken-3*/
   }
   #noticias {
@@ -11,7 +11,7 @@
 }
 
 .titulo{
-   background-color: #1b5e20 !important;
+   background-color: #183a1d !important;
    border-bottom: 4px solid #ffc400;
 }
 
@@ -72,7 +72,7 @@
 }
 #content {
    background: #ffc4002c;
-   color: #1b5e20;
+   color: #183a1d;
    text-shadow: 10px solid black;
    height: 110%;
 }

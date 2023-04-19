@@ -100,14 +100,14 @@
    });
 </script>
 
-<footer class="page-footer blue-grey darken-3">
+<footer class="page-footer">
  <!--parte del reproductor-->
  <div id='contenid' class="center">
    <audio src="" controls autoplay loop> <p>Tu navegador no implementa el elemento audio</p></audio>
    <br>
  </div>
 
- <div class="footer-copyrigh blue-grey darken-1 center">
-     © 2020 | Institución Educativa Técnica Tomás Vásquez Rodríguez
+ <div class="footer-copyrighcenter">
+     © 2020 | Ing. Jeferson Fonseca Soto.
  </div>
 </footer>
