@@ -4,10 +4,10 @@
    <meta charset="UTF-8">
    <meta name="description" content="Sitio Web Oficial de la Institución Educativa Técnica San Nicolás">
    <title>IET San Nicolás - Tuta</title>
-   <link rel="icon" href="./images\Escudo.png" type="image/png">
-   <link rel="stylesheet" href="css\header.css">
-   <link rel="stylesheet" href="css\slider.css">
-   <link rel="stylesheet" href="css\styles.css">
+   <link rel="icon" href="./images/Escudo.png" type="image/png">
+   <link rel="stylesheet" href="css/header.css">
+   <link rel="stylesheet" href="css/slider.css">
+   <link rel="stylesheet" href="css/style.css">
     <!--Import Google Icon Font-->
    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
    <!--Import Google Font-->
@@ -25,12 +25,12 @@
            <div class="row header">
                <div class="col s12 m1 l1 center"> <img src="./images\Escudo.png" alt="sanicolas" width=auto height=90px>
                </div>
-               <div class="col s12 m10 l4 center">
-                   <h5>Institución Educativa Técnica<br>San Nicolás - Tuta</h5>
-                   <p>"Queremos y podemos"</p>
+               <div class="col s12 m10 l4">
+                   <h5 class="center">Institución Educativa Técnica<br>San Nicolás - Tuta</h5>
+                   <p class="center">"Queremos y podemos"</p>
                </div>
            </div>
-           <nav class="green darken-4" id="myHeader">
+           <nav class=" green darken-3" id="myHeader">
                <div class="nav-wrapper">
                 <a class="hide" id="logo"><img style="padding: 10px;" src="./images/Escudo.png" 
                 alt="sannicolas" width=auto height=100%></a>

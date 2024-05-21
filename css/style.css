@@ -1,0 +1,96 @@
+/* Import de fuentes */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+
+/* Fuentes personalizadas */
+@font-face {
+  font-family: Avenir;
+  src: url(./../assets/fonts/FontsFree-Net-Avenir-Light.woff);
+}
+
+* {
+  font-family: Avenir;
+}
+.mySlides {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mySlides img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.botones {
+  padding: 20px 0;
+  margin: 40px 0;
+}
+
+.botones img {
+  height: 100px;
+  width: 200px;
+}
+
+.borde-dorado {
+  border-radius: 10px;
+  border-bottom: 5px solid #ffc400d5;
+  height: 100%;
+  width: 100%;
+}
+
+.green-text{
+  color: #183a1d;
+}
+
+.yellow-text{
+    color: #ad8503ad;
+  }
+.justify-text{
+    text-align: justify;
+}
+
+/*Cards de destacados*/
+.destacados {
+    position: relative;
+    border-radius: 20px;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .destacados:hover .image {
+    opacity: 0.3;
+  }
+  
+  .destacados:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #183a1d;
+    width: 100%;
+    color: white;
+    font-size: 30px;
+    padding: 16px 32px;
+    text-shadow: 1 1 1 px black;
+  }

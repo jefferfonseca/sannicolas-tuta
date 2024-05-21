@@ -17,7 +17,7 @@
                    <p class="black-text">Comité de democracia</p>
                    <!--linea azul decorativa-->
                    <div class="col s12 green darken-4" style="font-size: 6px;"><br /></div>
-                   <p class="black-text" align="justify">
+                   <p class="black-text" ">
                        Problemática que convoca: La obligatoriedad del gobierno escolar con participación democrática según Art. 142 de la ley 115 de 1994 y Art. 19 del decreto 1860 de 1994. El derecho constitucional de participar en las
                        decisiones de la escuela le permite a los padres y madres de familia asumir la responsabilidad que tienen en la educación de sus hijos y es una posibilidad de ejercicio de la democracia al interior de la institución
                        y hace posible la participación de los niños, niñas, padres de familia y de maestros esto permite tomar conciencia de los problemas que se viven, promueve los intereses colectivos los intereses particulares. La
@@ -27,7 +27,7 @@
 
                <!--Cuerpo de articulo-->
                <div class="col s12 m6">
-                   <p class="black-text" align="justify">
+                   <p class="black-text" ">
                        El proyecto tiene como finalidad la profundización y práctica de la democracia en la institución para ello es necesario el reconocimiento de los derechos y el cumplimiento de los deberes de todos los miembros,
                        ofrecer las condiciones para el desarrollo de una personalidad responsable y autónoma, consciente del valor de su dignidad. En el proceso de conformación del gobierno escolar, del consejo estudiantil, elección de
                        personero estudiantil, consejo de padres de familia, y comisiones de evaluación y promoción, se respetan los procedimientos democráticos para su elección.
@@ -37,7 +37,7 @@
                        <br />
                    </p>
 
-                   <ul style="padding-left: 25px;" class="black-text" align="justify">
+                   <ul style="padding-left: 25px;" class="black-text" ">
                        <li>• Desarrollar en la comunidad educativa la participación democrática, un pensamiento autónomo, crítico y de juicio político.</li>
                        <br />
                        <li>• Fortalecer y promover en los estudiantes su identidad personal y social y el sentido de pertenencia en los diferentes espacios en los que interactúa.</li>
@@ -62,7 +62,7 @@
                        <br />
                        <b class="center-align">Desarrollo De La Autonomía Y Del Juicio Político:</b>
 
-                       <p align="justify">
+                       <p ">
                            • Capacidad de pensar y actuar con criterios propios teniendo en cuenta diferentes puntos de vista. <br />
                            • Capacidad de asumir con responsabilidad sus derechos políticos: elegir y ser elegido. <br />
                            • Capacidad de asumir con responsabilidad las funciones propias de los cargos para los cuales fueron elegidos.
@@ -74,7 +74,7 @@
                        <br />
                        <b>Competencias Comunicativas:</b>
 
-                       <p align="justify">
+                       <p ">
                            <br />
                            • Capacidad de comunicarse con los otros y resolver conflictos en forma dialogada. <br />
                            • Capacidad de respeto y valoración de las diferencias. <br />
@@ -90,7 +90,7 @@
                        <br />
                        <b>Competencias Socializadoras:</b>
 
-                       <p align="justify">
+                       <p ">
                            <br />
                            • Capacidad de construir identidades. <br />
                            • Capacidad de compartir y configurar los rasgos de su identidad personal y el sentimiento de pertenencia a la institución, a su región y a su país. <br />
@@ -109,7 +109,7 @@
                    <p class="black-text">Psicoorientación.</p>
                    <!--linea azul decorativa-->
                    <div class="col s12 green darken-4" style="font-size: 6px;"><br /></div>
-                   <p class="black-text" align="justify">
+                   <p class="black-text" ">
                        Lo correspondiente a Orientación Vocacional se diseñará de tal forma que abarque desde grado cero a undécimo, realizando actividades periódicas que permitan ir sembrando la inquietud en la población escolar de la
                        Institución Educativa desde edades tempranas, para ello se trabajara desde el área de ética en apoyo con los directores de grado, docentes de la materia y padres de familia, para ello se plantean las siguientes
                        actividades:
@@ -130,7 +130,7 @@
 
                <!--Cuerpo de articulo-->
                <div class="col s12 m6">
-                   <p class="black-text" align="justify">
+                   <p class="black-text" ">
                        • <b>Acercamiento a las Profesiones:</b> Busca que los estudiantes conozcan las profesiones a las que pueden tener acceso y abrir su pensamiento frente al futuro y las posibilidades. <br />
                        <br />
                        • <b>Actividad:</b> Durante cada año se trabajara en un grupo de profesiones, para hacerlo un poco dinámico cada periodo se realizara una actividad Conversatorio donde se invite a un profesional para que comparta
@@ -166,7 +166,7 @@
 
                    <!--linea azul decorativa-->
                    <div class="col s12 green darken-4" style="font-size: 6px;"><br /></div>
-                   <p class="black-text" align="justify">
+                   <p class="black-text" ">
                        Teniendo en cuenta la situaciones vividas por los estudiantes en los diferentes momentos, que como ser humano debe compartir y vivenciar tanto en clases, fuera de ellas, en descansos, en la familia, su comunidad y
                        otros espacios de acción se evidencia la necesidad de implementar el desarrollo de actividades que contribuyan al mejoramiento de la convivencia, la cual conlleve a una mejor calidad de vida y formación integral como
                        estudiante.
@@ -184,7 +184,7 @@
 
                <!--Cuerpo de articulo-->
                <div class="col s12 m6">
-                   <p class="black-text" align="justify">
+                   <p class="black-text" ">
                        <b>JUSTIFICACIÓN</b>
                        <br />
                        <br />
@@ -210,7 +210,7 @@
 
                    <!--linea azul decorativa-->
                    <div class="col s12 green darken-4" style="font-size: 6px;"><br /></div>
-                   <p class="black-text" align="justify">
+                   <p class="black-text" ">
                        Desarrollar procesos educativos de calidad exige la creación y promoción de espacios donde, no solamente los estudiantes, sino además los padres de familia y la comunidad en general, tengan la posibilidad de
                        construir aprendizajes a partir de cada una de las vivencias que de manera paulatina se generan en el diálogo continuo con el otro. Pensar en el qué, el para qué y el cómo de aquel pilar de la educación donde Jacques
                        Delors hace referencia a la necesidad de orientar desde el entorno escolar el “Aprender a Convivir”, nos enfrenta como profesionales de la educación a un gran desafío que implica proyectar estrategias que involucren
@@ -226,7 +226,7 @@
 
                <!--Cuerpo de articulo-->
                <div class="col s12 m6">
-                   <p class="black-text" align="justify">
+                   <p class="black-text" ">
                        Con la aplicación de encuestas dirigidas tanto a padres de familia como a estudiantes, el grupo de trabajo ha podido detectar dentro de la población, un interés creciente en el estudio de las siguientes temáticas
                        distribuidas por grados y cursos así: <br />
                    </p>
@@ -249,7 +249,7 @@
 
                    <!--linea azul decorativa-->
                    <div class="col s12 green darken-4" style="font-size: 6px;"><br /></div>
-                   <p class="black-text" align="justify">
+                   <p class="black-text" ">
                        La integración del colegio y la familia permite una coherencia en la información y educación que se imparte y, por tanto, en la construcción y puesta en práctica de un proyecto común. La comunidad debe tener una alta
                        participación en la vida institucional, y dentro de ella, en el proceso de enseñanza aprendizaje de sus hijos, para poder realizar acciones conjuntas que propendan por el éxito escolar y el desarrollo personal de
                        todos los estudiantes.
@@ -260,7 +260,7 @@
                        <br />
                    </p>
 
-                   <ul style="padding-left: 25px;" class="black-text" align="justify">
+                   <ul style="padding-left: 25px;" class="black-text" ">
                        <li>• Su trabajo, dentro y fuera de la casa, tienen poco tiempo para dedicarle a la educación de sus hijos.</li>
                        <br />
                        <li>• La incomodidad que sienten muchos padres con respecto al centro y deciden no acudir.</li>
@@ -273,7 +273,7 @@
 
                <!--Cuerpo de articulo-->
                <div class="col s12 m6">
-                   <p class="black-text" align="justify">
+                   <p class="black-text" ">
                        Esto genera poco contacto con la institución educativa, generalmente la relación docente padres de familia se limita a la entrega de boletines, organización de algún evento social, o citaciones que hacen los docentes
                        <br />
                        <br />
@@ -290,7 +290,7 @@
                        <b>OBJETIVOS ESPECIFICOS</b>
                        <br />
                    </p>
-                   <ul style="padding-left: 25px;" class="black-text" align="justify">
+                   <ul style="padding-left: 25px;" class="black-text" ">
                        <li>• Promover la asistencia constante de los padres de familia a las jornadas de atención a padres según el cronograma establecido por la institución.</li>
                        <br />
                        <li>• Realizar seguimiento continuo a la asistencia de atención a padres mediante el formato diseñado para tal fin.</li>
@@ -311,7 +311,7 @@
 
                    <!--linea azul decorativa-->
                    <div class="col s12 green darken-4" style="font-size: 6px;"><br /></div>
-                   <p class="black-text" align="justify">
+                   <p class="black-text" ">
                        La juventud actual, atraviesa por diferentes situaciones que dispersan la atención en otras actividades inoficiosas y poco productivas. Es el caso del mal uso del celular y los video juegos. De otra parte, algunas
                        situaciones de índole familiar que los afecta emocional y actitudinal a los estudiantes.
                        <br />
@@ -330,7 +330,7 @@
                        <br />
                    </p>
 
-                   <ul style="padding-left: 25px;" class="black-text" align="justify">
+                   <ul style="padding-left: 25px;" class="black-text" ">
                        <li>• Promover en los estudiantes la práctica de la actividad física.</li>
                        <br />
                        <li>• Fomentar en la comunidad educativa el aprovechamiento del tiempo libre.</li>
@@ -341,7 +341,7 @@
 
                <!--Cuerpo de articulo-->
                <div class="col s12 m6">
-                   <p class="black-text" align="justify">
+                   <p class="black-text" ">
                        Esto genera poco contacto con la institución educativa, generalmente la relación docente padres de familia se limita a la entrega de boletines, organización de algún evento social, o citaciones que hacen los docentes
                        <br />
                        <br />
@@ -358,7 +358,7 @@
                        <b>OBJETIVOS ESPECIFICOS</b>
                        <br />
                    </p>
-                   <ul style="padding-left: 25px;" class="black-text" align="justify">
+                   <ul style="padding-left: 25px;" class="black-text" ">
                        <li>• Promover la asistencia constante de los padres de familia a las jornadas de atención a padres según el cronograma establecido por la institución.</li>
                        <br />
                        <li>• Realizar seguimiento continuo a la asistencia de atención a padres mediante el formato diseñado para tal fin.</li>

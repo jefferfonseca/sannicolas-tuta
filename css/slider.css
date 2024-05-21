@@ -22,11 +22,6 @@
    padding: 20px 20px;
 }
 
-.borde-dorado {
-   border-radius: 10px;
-   border-bottom: 5px solid #ffc400d5;
-}
-
 /* Fading animation */
 .fade {
    -webkit-animation-name: fade;

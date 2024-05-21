@@ -98,8 +98,8 @@ echo "<h4 class='center-align'>Número de visitas: 0000" . $row['Contador'] . "<
            </div>
            </div>
    </div>
-       <div class="footer-copyright valign-wrapper">
-         <h6>© 2023 | <b>Design:</b> <a href="https://jefferfonseca.github.io/curriculum-vitae/inicio" target="_blank">&lt;Ing. Jeferson Fonseca Soto&gt;</a></h6>
+       <div class="footer-copyright valign-wrapper center-align">
+         <h6>© 2023 | <b>Design:</b> <a href="https://ingjefersonfonsecasoto.com.co" target="_blank">&lt;Ing. Jeferson Fonseca Soto&gt;</a></h6>
        </div>
    
 </footer>

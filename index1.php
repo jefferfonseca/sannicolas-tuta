@@ -102,7 +102,7 @@
      
        <div class="col s12 m8 l8">
            <br>
-           <h5 class="container" align="justify">El egresado de la Institución Educativa Técnica Tomás Vásquez Rodríguez se desempeñara en la sociedad demostrando su liderazgo, sentido de pertenencia, tolerancia, y respeto, siendo competente académica y laboralmente</h5>
+           <h5 class="container" ">El egresado de la Institución Educativa Técnica Tomás Vásquez Rodríguez se desempeñara en la sociedad demostrando su liderazgo, sentido de pertenencia, tolerancia, y respeto, siendo competente académica y laboralmente</h5>
            <br>
        </div>
            
