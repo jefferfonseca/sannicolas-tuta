@@ -7,36 +7,35 @@ include 'includes/header.php'; ?>
 </div>
 
 
-<div class="section white ">
-    <div class="row">
-        <h2 class="center green-text text-darken-4">HISTORIA</h2>
-        <div class="col s12 m6 columnas">
+<div class="section white">
+    <h2 class="center green-text text-darken-4">HISTORIA</h2>
+    <div class="row historia">
+        <div class="columnas">
             <p class="green-text text-darken-4">
-                La Institución Educativa San Nicolás La Institución Educativa San Nicolás fue fundada
-                en el año 1957, en sus comienzos las actividades académicas se desarrollaron en casas
-                de familia y años más tarde adquirieron un lote con aportes de la comunidad.
-                En la administración del Doctor Alcides Gómez en 1997 se creó la posprimaria rural
-                dando la oportunidad a los jóvenes de la región a continuar sus estudios hasta el grado noveno. En octubre del año 2003 con la resolución 5762 se fusionan las escuelas de Jorge Eliecer Gaitán y el Salvial adoptando como nombre Colegio de Educación Básica “San Nicolás”.
-            </p>
-        </div>
-        <div class="col s12 m6 columnas">
-            <p class="green-text text-darken-4">
+                La Institución Educativa San Nicolás fue fundada en el año 1957, en sus comienzos
+                las actividades académicas se desarrollaron en casas de familia y años más tarde 
+                adquirieron un lote con aportes de la comunidad. En la administración del Doctor 
+                Alcides Gómez en 1997 se creó la posprimaria ruraldando la oportunidad a los jóvenes 
+                de la región a continuar sus estudios hasta el grado noveno.
+
+                En octubre del año 2003 con la resolución 5762 se fusionan las escuelas de Jorge
+                Eliecer Gaitán y el Salvial adoptando como nombre Colegio de Educación Básica “San Nicolás”.
                 En diciembre de 2007 se fusiona la escuela de Siderúrgica con la resolución 4884 y en enero
                 del año 2009, con la resolución 10-02 de la Secretaría de Educación de Boyacá, adopta el
                 nombre de Institución Educativa “San Nicolás”.
+
                 Por ampliación de cobertura se inicia la básica secundaria en la sede Siderúrgica en el
                 año 2008, actualmente se ofrece el grado octavo y se sueña brindar en la institución el
                 ciclo de educación media con articulación a la educación superior. Desde el año 2006 la
-                institución cuenta con el nombramiento en propiedad de la Especialista Ana Jaqueline Saganome
-                López como rectora y en la actualidad laboran 19 docentes y dos administrativos.
-
+                institución cuenta con el nombramiento en propiedad de la Especialista Ana Jaqueline 
+                Saganome López como rectora y en la actualidad laboran 19 docentes y dos administrativos.
             </p>
         </div>
     </div>
 </div>
 
 <!-- Misión -->
-<div class="row">
+<div class="row  valign-wrapper">
     <div class="col s12 m6 ">
         <h1 class="center yellow-text">Misión</h1>
         <p style="padding: 5px 25px">
@@ -56,10 +55,10 @@ include 'includes/header.php'; ?>
 
 
 <!-- Visión -->
-<div class="row titulo ">
+<div class="row valign-wrapper">
 
     <div class="col s12 m6 center hide-on-small-only">
-        <img src=".\images\tovaro\m.png" id="content" width=60%>
+        <img src=".\images\tovaro\v.png" id="content" width=60%>
     </div>
 
     <div class="col s12 m6">
