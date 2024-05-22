@@ -49,7 +49,7 @@ ul > .dropdown-content #institucion {
   background-color: transparent;
 }
 
-ul > li:hover {
+.navbar ul > li:hover {
   background-color: #ffc400;
 }
 
@@ -57,7 +57,7 @@ ul > li:hover {
   background-color: #183a1d;
 }
 
-.li > a:hover {
+.dropdown-content > .li > a:hover {
   background-color: #ffc400;
 }
 

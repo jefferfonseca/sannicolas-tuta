@@ -2,7 +2,7 @@
 include 'includes/header.php'; ?>
 
 <div class="parallax-container historia">
-    <div class="parallax"><img src="./images/slider/1.jpg"></div>
+    <div class="parallax"><img src="./images/tovaro/h2.jpeg"></div>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </div>
 
