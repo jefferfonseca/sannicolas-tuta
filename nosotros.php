@@ -2,7 +2,7 @@
 include 'includes/header.php'; ?>
 
 <div class="parallax-container historia">
-    <div class="parallax"><img src="./images/tovaro/h2.jpeg"></div>
+    <div class="parallax"><img src="./images/nosotros/h2.jpeg"></div>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </div>
 
@@ -35,8 +35,8 @@ include 'includes/header.php'; ?>
 </div>
 
 <!-- Misión -->
-<div class="row  valign-wrapper">
-    <div class="col s12 m6 ">
+<div class="row mision">
+    <div class="col s12 m6">
         <h1 class="center yellow-text">Misión</h1>
         <p style="padding: 5px 25px">
             La institución educativa san Nicolás, propicia la prestación de servicio público educativo
@@ -49,16 +49,16 @@ include 'includes/header.php'; ?>
     </div>
 
     <div class="col s12 m6 center ">
-        <img src=".\images\tovaro\m.png" id="content" width=60%>
+        <img src="./images/nosotros/m.png" width=80%>
     </div>
 </div>
 
 
 <!-- Visión -->
-<div class="row valign-wrapper">
+<div class="row">
 
     <div class="col s12 m6 center hide-on-small-only">
-        <img src=".\images\tovaro\v.png" id="content" width=60%>
+        <img src="./images/nosotros/v.png" width=60%>
     </div>
 
     <div class="col s12 m6">
@@ -71,7 +71,7 @@ include 'includes/header.php'; ?>
     </div>
 
     <div class="col s12 m6 center hide-on-med-and-up">
-        <img src=".\images\tovaro\m.png" id="content" width=60%>
+        <img src="./images/nosotros/v.png" width=60%>
     </div>
 </div>
 

@@ -107,7 +107,7 @@
        </div>
            
        <div class="container col s12 m4 l4 green-text center">
-           <img src=".\images\tovaro\Estudiantes.jpg" alt="Especialidades tovaro" class="borde-dorado " width=80% >
+           <img src=".\images/nosotros/Estudiantes.jpg" alt="Especialidades tovaro" class="borde-dorado " width=80% >
        </div>
    <br>
    <br>

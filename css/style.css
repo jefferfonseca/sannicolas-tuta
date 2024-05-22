@@ -111,11 +111,18 @@
   .historia {
     column-count: 1;
   }
+  .mision {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
+.mision {
+  display: flex;
+  align-items: center;
+}
 
-
-footer{
+footer {
   position: absolute;
   width: 100%;
   z-index: 1;
