@@ -1,16 +1,17 @@
-<?php $menu="Institución"; include('includes/header.php');?>
+<?php $menu = "Institución";
+include('includes/header.php'); ?>
 
 <!--------------------- Titulo ------------------------------>
-<div class="yellow darken-3" style="padding: 5px;">
-    <h3 class="center white-text" ><b>GOBIERNO ESCOLAR</b></h3>
-</div>
+<div" style="padding: 5px;">
+    <h3 class="center white-text"><b>GOBIERNO ESCOLAR</b></h3>
+    </div>
 
-<!--------------------- Directivos de la institución ------------------------------>
+    <!--------------------- Directivos de la institución ------------------------------>
 
-<div class="section titulo">
-    <h4 class="center white-text"><b>DIRECTIVOS DOCENTES</b></h4>
-</div>
-    
+    <div class="section ">
+        <h4 class="center white-text"><b>DIRECTIVOS DOCENTES</b></h4>
+    </div>
+
     <div class="row white center">
         <div class="col s12 opacity">
             <div class="row">
@@ -19,25 +20,25 @@
                 <div class="col s12 m6 center">
                     <img src="./images/mujer.png" alt="" width="auto" height="140" />
                     <h5 class="green-text text-darken-4"><b>Esp. Ana Jaqueline Saganome Lopéz</b></h5>
-                    <p class="black-text"><b>Rectora</b></p>
+                    <p class="black-text center"><b>Rectora</b></p>
                 </div>
-                 <!--- Psicorientación --->
-                 <div class="col s12  m6 ">
+                <!--- Psicorientación --->
+                <div class="col s12  m6 ">
                     <img src="./images/mujer.png" alt="" width="auto" height="140" />
                     <h5 class="green-text text-darken-4"><b>Esp. Madyuri Andrea Guerrero Sánchez</b></h5>
-                    <p class="black-text"><b>Psicoorientadora</b></p>
+                    <p class="black-text center"><b>Psicoorientadora</b></p>
                 </div>
             </div>
         </div>
     </div>
-</div>
+    </div>
 
     <!--------------------- Consejo Directivo ------------------------------>
 
     <div class="section titulo">
         <h4 class="center white-text"> <b>CONSEJO DIRECTIVO</b></h4>
     </div>
-    
+
     <div class="row white">
         <br />
         <div class="col s12 opacity">
@@ -46,67 +47,67 @@
                 <div class="col s12 m6 l3 center">
                     <img src="./images/hombre.png" alt="" width="auto" height="140" />
                     <h5 class="green-text text-darken-4"><b>Esp. Ana Jaqueline Saganome Lopéz</b></h5>
-                    <p class="black-text"><b>Presidente</b></p>
+                    <p class="black-text center"><b>Presidente</b></p>
                 </div>
 
                 <!--- Representante docentes secundaria --->
                 <div class="col s12 m6 l3 center">
                     <img src="./images/mujer.png" alt="" width="auto" height="140" />
-                    <h5 class="green-text text-darken-4"><b>Esp. Gloria Inés Vasgas Rincón</b></h5>
-                    <p class="black-text"><b>Representante docentes secundaria</b></p>
+                    <h5 class="green-text text-darken-4"><b></b></h5>
+                    <p class="black-text center"><b>Representante docentes secundaria</b></p>
                 </div>
 
                 <!--- Representantes docentes primaria--->
                 <div class="col s12 m6 l3 center">
                     <img src="./images/hombre.png" alt="" width="auto" height="140" />
-                    <h5 class="green-text text-darken-4"><b>Juan José Roberto Prieto</b></h5>
-                    <p class="black-text"><b>Representantes docentes primaria</b></p>
+                    <h5 class="green-text text-darken-4"><b></b></h5>
+                    <p class="black-text center"><b>Representantes docentes primaria</b></p>
                 </div>
 
                 <!--- Representante docente sedes --->
                 <div class="col s12 m6 l3 center">
                     <img src="./images/mujer.png" alt="" width="auto" height="140" />
-                    <h5 class="green-text text-darken-4"><b>Nohemi Hernandez Bernal</b></h5>
-                    <p class="black-text"><b>Representante docente sedes</b></p>
+                    <h5 class="green-text text-darken-4"><b></b></h5>
+                    <p class="black-text center"><b>Representante docente sedes</b></p>
                 </div>
             </div>
             <div class="row">
                 <!--- Representante consejo de padres --->
                 <div class="col s12 m6 l3 center">
                     <img src="./images/mujer.png" alt="" width="auto" height="140" />
-                    <h5 class="green-text text-darken-4"><b>Mario Quintero Baron</b></h5>
-                    <p class="black-text"><b>Representante consejo de padres</b></p>
+                    <h5 class="green-text text-darken-4"><b></b></h5>
+                    <p class="black-text center"><b>Representante consejo de padres</b></p>
                 </div>
 
                 <!--- Representante consejo de padres --->
                 <div class="col s12 m6 l3 center">
                     <img src="./images/mujer.png" alt="" width="auto" height="140" />
-                    <h5 class="green-text text-darken-4"><b>Johana Aguilar Monroy</b></h5>
-                    <p class="black-text"><b>Representante consejo de padres</b></p>
+                    <h5 class="green-text text-darken-4"><b></b></h5>
+                    <p class="black-text center"><b>Representante consejo de padres</b></p>
                 </div>
 
                 <!--- Representante sector productivo --->
                 <div class="col s12 m6 l3 center">
                     <img src="./images/mujer.png" alt="" width="auto" height="140" />
-                    <h5 class="green-text text-darken-4"><b>Gladys Mesa Merchán</b></h5>
-                    <p class="black-text"><b>Representante sector productivo</b></p>
+                    <h5 class="green-text text-darken-4"><b></b></h5>
+                    <p class="black-text center"><b>Representante sector productivo</b></p>
                 </div>
 
                 <!--- Representante Estudiantíl --->
                 <div class="col s12 m6 l3 center">
                     <img src="./images/mujer.png" alt="" width="auto" height="140" />
-                    <h5 class="green-text text-darken-4"><b>Juliana Valentina Peñalosa Guaman (11.2)</b></h5>
-                    <p class="black-text"><b>Representante Estudiantíl</b></p>
+                    <h5 class="green-text text-darken-4"><b></b></h5>
+                    <p class="black-text center"><b>Representante Estudiantíl</b></p>
                 </div>
             </div>
         </div>
     </div>
 
-<!--------------------- Consejo académico ------------------------------>
+    <!--------------------- Consejo académico ------------------------------>
 
-<div class="section titulo">
-    <h4 class="center white-text"><b>CONSEJO ACADÉMICO</b></h4>
-</div>
+    <div class="section titulo">
+        <h4 class="center white-text"><b>CONSEJO ACADÉMICO</b></h4>
+    </div>
 
     <div class="row white">
         <br />
@@ -114,176 +115,142 @@
             <div class="row">
                 <!--- Presidente --->
                 <div class="col s12 m6 l3 center">
-                    <img src="./images/hombre.png" alt="" width="auto" height="140" />
-                    <h5 class="green-text text-darken-4"><b>Esp. Miguel José Pérez Cubillos</b></h5>
-                    <p class="black-text"><b>Presidente</b></p>
-                </div>
-
-                <!--- Coordinadora académica --->
-                <div class="col s12 m6 l3 center">
                     <img src="./images/mujer.png" alt="" width="auto" height="140" />
-                    <h5 class="green-text text-darken-4"><b>Martha Cecilia Gamboa Sora</b></h5>
-                    <p class="black-text"><b>Coordinador académico</b></p>
+                    <h5 class="green-text text-darken-4"><b>Esp. Ana Jaqueline Saganome Lopéz</b></h5>
+                    <p class="black-text center"><b>Presidente</b></p>
                 </div>
 
-                <!--- Coordinador de convivencia --->
-                <div class="col s12 m6 l3 center">
-                    <img src="./images/hombre.png" alt="" width="auto" height="140" />
-                    <h5 class="green-text text-darken-4"><b>Javier Gómez Araque</b></h5>
-                    <p class="black-text"><b>Coordinador de convivencia</b></p>
-                    <br />
-                </div>
-
-                <!--- Coordinadora de primaria --->
-                <div class="col s12 m6 l3 center">
-                    <img src="./images/mujer.png" alt="" width="auto" height="140" />
-                    <h5 class="green-text text-darken-4"><b>Aura Yaneth Gallo Gómez</b></h5>
-                    <p class="black-text"><b>Coordinador de primaria</b></p>
-                    <br />
-                </div>
-            </div>
-
-            <div class="row">
                 <!--- Psicorientación --->
                 <div class="col s12 m6 l3 center">
                     <img src="./images/mujer.png" alt="" width="auto" height="140" />
-                    <h5 class="green-text text-darken-4"><b>Esp. Aleisa Edilsa Rojas Rosero</b></h5>
-                    <p class="black-text"><b>Psicoorientadora</b></p>
+                    <h5 class="green-text text-darken-4"><b>Esp. Madyuri Andrea Guerrero Sánchez</b></h5>
+                    <p class="black-text center"><b>Psicoorientadora</b></p>
                 </div>
 
                 <!--- Secretaría --->
                 <div class="col s12 m6 l3 center">
                     <img src="./images/mujer.png" alt="" width="auto" height="140" />
-                    <h5 class="green-text text-darken-4"><b>Julia Amparo Prieto Rincón</b></h5>
-                    <p class="black-text"><b>Educación física, recreación y deportes</b></p>
+                    <h5 class="green-text text-darken-4"><b>Constanza Milena Perez Perez</b></h5>
+                    <p class="black-text center"><b>Educación física, recreación y deportes</b></p>
                 </div>
 
                 <!--- Ingles --->
                 <div class="col s12 m6 l3 center">
                     <img src="./images/mujer.png" alt="" width="auto" height="140" />
-                    <h5 class="green-text text-darken-4"><b>Ruth Villelva Carvajal Becerra</b></h5>
-                    <p class="black-text"><b>Humanidades</b></p>
+                    <h5 class="green-text text-darken-4"><b>Julia Esther Peñuela Rodriguez</b></h5>
+                    <p class="black-text center"><b>Humanidades</b></p>
                 </div>
+            </div>
+            <div class="row">
 
-                <!--- Redes y sistemas --->
+                <!--- Sistemas --->
                 <div class="col s12 m6 l3 center">
                     <img src="./images/hombre.png" alt="" width="auto" height="140" />
                     <h5 class="green-text text-darken-4"><b>Ing. Jeferson Leonel Fonseca Soto</b></h5>
-                    <p class="black-text"><b>Redes y sistemas</b></p>
+                    <p class="black-text center"><b>Técnica en desarrollo de aplicaciones web</b></p>
                 </div>
-            </div>
 
-            <div class="row">
                 <!--- Tecnología --->
                 <div class="col s12 m6 l3 center">
                     <img src="./images/hombre.png" alt="" width="auto" height="140" />
-                    <h5 class="green-text text-darken-4"><b>Luis Miguel Cayachoa Amaya</b></h5>
-                    <p class="black-text"><b>Tecnología e informática</b></p>
+                    <h5 class="green-text text-darken-4"><b>Nestor Lemus</b></h5>
+                    <p class="black-text center"><b>Tecnología e informática</b></p>
                 </div>
 
                 <!--- Matemáticas --->
                 <div class="col s12 m6 l3 center">
-                    <img src="./images/mujer.png" alt="" width="auto" height="140" />
-                    <h5 class="green-text text-darken-4"><b>Maria Celia Pedraza Ayala</b></h5>
-                    <p class="black-text"><b>Matemáticas</b></p>
+                    <img src="./images/hombre.png" alt="" width="auto" height="140" />
+                    <h5 class="green-text text-darken-4"><b>Carlos Ricardo Adarme Rojas</b></h5>
+                    <p class="black-text center"><b>Matemáticas</b></p>
                 </div>
 
                 <!--- Educación religiosa y moral --->
                 <div class="col s12 m6 l3 center">
-                    <img src="./images/mujer.png" alt="" width="auto" height="140" />
-                    <h5 class="green-text text-darken-4"><b>Gladys Stella Améquita Ostos</b></h5>
-                    <p class="black-text"><b>Educación religiosa y moral</b></p>
-                </div>
-
-                <!--- Ciencias sociales --->
-                <div class="col s12 m6 l3 center">
-                    <img src="./images/mujer.png" alt="" width="auto" height="140" />
-                    <h5 class="green-text text-darken-4"><b>Bertha Becerra Silva</b></h5>
-                    <p class="black-text"><b>Ciencias sociales</b></p>
+                    <img src="./images/hombre.png" alt="" width="auto" height="140" />
+                    <h5 class="green-text text-darken-4"><b>Diego Armando Avella Machuca</b></h5>
+                    <p class="black-text center"><b>Educación religiosa y moral</b></p>
                 </div>
             </div>
-
             <div class="row">
+                <!--- Ciencias sociales --->
+                <div class="col s12 m6 l3 center">
+                    <img src="./images/hombre.png" alt="" width="auto" height="140" />
+                    <h5 class="green-text text-darken-4"><b>Oscar Gonzalo Plazas Perez</b></h5>
+                    <p class="black-text center"><b>Ciencias sociales</b></p>
+                </div>
+
                 <!--- Ciencias naturales y educación ambiental --->
                 <div class="col s12 m6 l3 center">
                     <img src="./images/mujer.png" alt="" width="auto" height="140" />
-                    <h5 class="green-text text-darken-4"><b>Sonia Sofia Herrera Alba</b></h5>
-                    <p class="black-text"><b>Ciencias naturales y educación ambiental</b></p>
+                    <h5 class="green-text text-darken-4"><b>Maria Concepcion Cely Berdugo</b></h5>
+                    <p class="black-text center"><b>Ciencias naturales y educación ambiental</b></p>
                 </div>
 
                 <!--- Educación artística --->
                 <div class="col s12 m6 l3 center">
                     <img src="./images/hombre.png" alt="" width="auto" height="140" />
-                    <h5 class="green-text text-darken-4"><b>Hector Alonso Monsalve Pulido</b></h5>
-                    <p class="black-text"><b>Educación artística</b></p>
+                    <h5 class="green-text text-darken-4"><b>Hakeri Alejandro Cotacio Chilito</b></h5>
+                    <p class="black-text center"><b>Educación artística</b></p>
                 </div>
 
                 <!--- Ética y valores --->
                 <div class="col s12 m6 l3 center">
                     <img src="./images/mujer.png" alt="" width="auto" height="140" />
-                    <h5 class="green-text text-darken-4"><b>Gladys Stella Améquita Ostos</b></h5>
-                    <p class="black-text"><b>Ética y valores</b></p>
+                    <h5 class="green-text text-darken-4"><b>Diego Armando Avella Machuca</b></h5>
+                    <p class="black-text center"><b>Ética y valores</b></p>
                 </div>
-
+            </div>
+            <div class="row">
                 <!--- Preescolar --->
                 <div class="col s12 m6 l3 center">
                     <img src="./images/mujer.png" alt="" width="auto" height="140" />
-                    <h5 class="green-text text-darken-4"><b>Carolina Sánchez Paipilla</b></h5>
-                    <p class="black-text"><b>Preescolar</b></p>
-                </div>
-            </div>
-
-            <div class="row">
-                <!--- Turismo --->
-                <div class="col s12 m6 l4 center">
-                    <img src="./images/mujer.png" alt="" width="auto" height="140" />
-                    <h5 class="green-text text-darken-4"><b>Blanca Nubia Cipagauta Gamboa</b></h5>
-                    <p class="black-text"><b>Turismo</b></p>
+                    <h5 class="green-text text-darken-4"><b>Maria Luisa Suarez Umba</b></h5>
+                    <p class="black-text center"><b>Preescolar</b></p>
                 </div>
 
                 <!--- Primaria --->
-                <div class="col s12 m6 l4 center">
+                <div class="col s12 m6 l3 center">
                     <img src="./images/mujer.png" alt="" width="auto" height="140" />
-                    <h5 class="green-text text-darken-4"><b>Sandra Elena Puerto Reyes</b></h5>
-                    <p class="black-text"><b>Primaria</b></p>
+                    <h5 class="green-text text-darken-4"><b></b></h5>
+                    <p class="black-text center"><b>Primaria</b></p>
                 </div>
 
                 <!--- Sedes --->
-                <div class="col s12 m6 l4 center">
+                <div class="col s12 m6 l3 center">
                     <img src="./images/mujer.png" alt="" width="auto" height="140" />
-                    <h5 class="green-text text-darken-4"><b>Carmen Felisa Barbosa Prieto</b></h5>
-                    <p class="black-text"><b>Sedes</b></p>
+                    <h5 class="green-text text-darken-4"><b></b></h5>
+                    <p class="black-text center"><b>Sedes</b></p>
                 </div>
             </div>
         </div>
     </div>
 
-<!--------------------- Gobierno Estudiantíl ------------------------------>
-    
-<div class="section titulo">
-    <h3 class="center white-text">Gobierno Estudiantíl</h3>
-</div>
+    <!--------------------- Gobierno Estudiantíl ------------------------------>
 
-<div class="row white">
+    <div class="section titulo">
+        <h3 class="center white-text">Gobierno Estudiantíl</h3>
+    </div>
+
+    <div class="row white">
         <br />
         <div class="col s12 opacity">
             <h3 class="center green-text text-darken-4">Representantes</h3>
             <div class="row">
                 <!--- Personero --->
                 <div class="col s12 m6 center">
-                    <img src="./images/mujer.png" alt="" width="auto" height="140" />
-                    <h5 class="green-text text-darken-4"><b>Yesica Lorena Ostos Cardenas (11.2)</b></h5>
-                    <p class="black-text"><b>Personera Estudiantil 2020</b></p>
+                    <img src="./images/hombre.png" alt="" width="auto" height="140" />
+                    <h5 class="green-text text-darken-4"><b>Oscar Alejandro Rivera Silva (11A)</b></h5>
+                    <p class="black-text center"><b>Personero Estudiantil 2024</b></p>
                 </div>
 
                 <!--- Representante Estudiantíl --->
                 <div class="col s12 m6 center">
-                    <img src="./images/mujer.png" alt="" width="auto" height="140" />
-                    <h5 class="green-text text-darken-4"><b>Juliana Valentina Peñalosa Guaman (11.2)</b></h5>
-                    <p class="black-text"><b>Representante Estudiantíl</b></p>
+                    <img src="./images/hombre.png" alt="" width="auto" height="140" />
+                    <h5 class="green-text text-darken-4"><b>(11A)</b></h5>
+                    <p class="black-text center"><b>Representante Estudiantíl</b></p>
                 </div>
             </div>
         </div>
     </div>
 
-<?php include('includes/footer.php');?>
+    <?php include('includes/footer.php'); ?>

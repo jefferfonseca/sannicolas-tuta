@@ -78,9 +78,9 @@ include 'includes/header.php'; ?>
 
         <div class="col s12 m4 l4">
             <br>
-            <a href="https://www.instagram.com/ietsannicolas/" target="_blank">
+            <a href="#" target="_blank">
                 <div class="destacados">
-                    <img src="./images/destacados/ig.png" alt="ig" class="image borde-dorado">
+                    <img src="./images/destacados/especialidad.jpeg" alt="ig" class="image borde-dorado">
                     <div class="middle">
                         <div class="text">Especialidad</div>
                     </div>
@@ -90,11 +90,11 @@ include 'includes/header.php'; ?>
 
     <div class="col s12 m4 l4">
         <br>
-        <a href="live.php" target="_blank">
+        <a href="#" target="_blank">
             <div class="destacados">
                 <img src="./images/destacados/periodico.jpg" alt="Live" class="image borde-dorado">
                 <div class="middle">
-                    <div class="text">Periodico Escolar</div>
+                    <div class="text">Periódico Escolar</div>
                 </div>
             </div>
         </a>
@@ -119,7 +119,7 @@ include 'includes/header.php'; ?>
             <br>
         </div>
         <div class=" container col s12 m4 l4 green-text center">
-                <img src="./images/slider/2.jpg" alt="Especialidades tovaro" class="borde-dorado " width=80%>
+                <img src="./images/slider/11.jpeg" alt="perfil" class="borde-dorado " width=80%>
         </div>
         <br>
         <br>

@@ -8,47 +8,39 @@
 </div>
 <!--------------------- Sedes Rurales ------------------------------>
 <div class="section yellow darken-3">
-   <h3 class="center white-text">Sedes rurales</h3>
+   <h3 class="center white-text">Sedes Rurales</h3>
 </div>
 <br>
  <div class="row white">
-       <div class="col s12 opacity">
+       <div class="col s12">
            <div class="row">
            <br>
-
                <!--- Sede Central --->
-               <div class="col s12 m6 l4 center ">
+               <div class="col s12 m6 center ">
                    <img src="./images/hombre.png" alt="" width= auto height= 140 >
-                   <h5 class="green-text text-darken-4"><b>Sede Marcura</b></h5>
-                   <p class="black-text" style="margin:5px 0;"><b>Vereda Marcura</b></p>
+                   <h5 class="green-text text-darken-4"><b>Sede Siderúrgica</b></h5>
+                   <p class="black-text center" style="margin:5px 0;"><b>Vereda El Arenal</b></p>
                </div>
               
                <!--- Sede Siderurjica --->
-               <div class="col s12 m6 l4 center ">
+               <div class="col s12 m6 center ">
                    <img src="./images/mujer.png" alt="" width= auto height= 140 >
-                   <h5 class="green-text text-darken-4"><b>Sede Sativa</b></h5>
-                   <p class="black-text" style="margin:5px 0;"><b>Vereda Sativa</b></p>
+                   <h5 class="green-text text-darken-4"><b>Sede Central</b></h5>
+                   <p class="black-text center" style="margin:5px 0;"><b>Vereda San Nicolás</b></p>
                </div>
 
                <!--- Sede La Bolsa --->
-               <div class="col s12 m6 l4 center ">
+               <div class="col s12 m6 center ">
                    <img src="./images/mujer.png" alt="" width= auto height= 140 >
-                   <h5 class="green-text text-darken-4"><b>Sede La Bolsa</b></h5>
-                   <p class="black-text" style="margin:5px 0;"><b>Vereda La Bolsa</b></p>
+                   <h5 class="green-text text-darken-4"><b>Sede Salvial</b></h5>
+                   <p class="black-text center" style="margin:5px 0;"><b>Vereda Salvial</b></p>
                </div>
 
                <!--- Sede El Rosal --->
                <div class="col s12 m6 center ">
                    <img src="./images/mujer.png" alt="" width= auto height= 140 >
-                   <h5 class="green-text text-darken-4"><b>Sede El Rosal</b></h5>
-                   <p class="black-text" style="margin:5px 0;"><b>Vereda El Rosal</b></p>
-               </div>
-
-               <!--- Sede El Venado --->
-               <div class="col s12 m6 center ">
-                   <img src="./images/mujer.png" alt="" width= auto height= 140 >
-                   <h5 class="green-text text-darken-4"><b>Sede El Venado</b></h5>
-                   <p class="black-text" style="margin:5px 0;"><b>Vereda El Venado</b></p>
+                   <h5 class="green-text text-darken-4"><b>Sede Jorge Elicer Gaitan</b></h5>
+                   <p class="black-text center" style="margin:5px 0;"><b>Vereda Regencia</b></p>
                </div>
            </div>
        <br>
