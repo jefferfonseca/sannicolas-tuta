@@ -11,19 +11,19 @@ body {
   color: white;
 }
 
-.nav{
+.nav {
   background: #347845 !important;
-  }
-
-.green{
-  background-color: #347845 !important; 
 }
 
-.m-0{
+.green {
+  background-color: #347845 !important;
+}
+
+.m-0 {
   margin: 0 !important;
 }
-.p-0{
-  padding: 0!important;
+.p-0 {
+  padding: 0 !important;
 }
 
 header {
@@ -31,8 +31,6 @@ header {
   position: relative;
   border-bottom: 3px solid #ffc400;
 }
-
-
 
 div.row {
   margin: 0px;
