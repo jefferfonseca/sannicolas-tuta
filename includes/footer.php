@@ -23,6 +23,11 @@ echo "<h4 class='center-align'>Número de visitas: 0000" . $row['Contador'] . "<
     });
 
     document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.dropdown-trigger');
+        var instances = M.Dropdown.init(elems);
+    });
+
+    document.addEventListener('DOMContentLoaded', function() {
         var elems = document.querySelectorAll('.sidenav');
         var instances = M.Sidenav.init(elems);
     });
@@ -73,9 +78,9 @@ echo "<h4 class='center-align'>Número de visitas: 0000" . $row['Contador'] . "<
 <footer class="p-0">
     <div class="row valign-wrapper m-0">
         <div class="col s4  center">
-            <h4 class="white-text">Contacto:</h4>
-            <h6><b>Celular:</b> <br>(+57) 321 222 2082</h6>
-            <h6><b>E-mail:</b> <br>tuta_colsannicolas@hotmail.com</h6>
+            <h4 class="white-text"><b>Contacto:</b></h4>
+            <h6><b>Celular: <br>(+57)</b> 321 222 2082</h6>
+            <h6><b>E - mail:</b> <br>tuta_colsannicolas@hotmail.com</h6>
             <h6><b>Dirección</b> <br>Vda. El Arenal - Tuta</h6>
         </div>
         <div class="col s8 p-0 valign-wrapper">

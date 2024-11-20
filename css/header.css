@@ -1,5 +1,5 @@
 :root {
-  /*--verde: #183a1d;  green darken-4*/
+  /*--verde: #347845;  green darken-4*/
   --verde: #347845 !important; /* green darken-4*/
   --amarillo: #ffc400; /* yellow darken-3*/
 }
@@ -20,10 +20,10 @@ body {
 }
 
 .m-0{
-  margin: 0;
+  margin: 0 !important;
 }
 .p-0{
-  padding: 0;
+  padding: 0!important;
 }
 
 header {
@@ -62,7 +62,7 @@ ul > .dropdown-content #institucion {
 }
 
 .li {
-  background-color: #183a1d;
+  background-color: #347845;
 }
 
 .dropdown-content > .li > a:hover {

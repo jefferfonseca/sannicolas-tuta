@@ -68,7 +68,7 @@ include 'includes/header.php'; ?>
             <br>
             <a href="https://web.facebook.com/ietsannicolas" target="_blank">
                 <div class="destacados">
-                    <img src="./images/destacados/facebook.jpg" alt="fb" class="image borde-dorado" >
+                    <img src="./images/destacados/facebook.jpg" alt="fb" class="image borde-dorado">
                     <div class="middle">
                         <h4 class="text">Facebook</h4>
                     </div>
@@ -110,16 +110,16 @@ include 'includes/header.php'; ?>
         <div class="col s12 m8 l8">
             <br>
             <h5 class="container justify-text">
-                El egresado de la Institución Educativa San Nicolás - Tuta se destacará en la sociedad como un 
-                líder ejemplar, con un profundo sentido de pertenencia, tolerancia y respeto hacia los demás. 
-                Será competente tanto en el ámbito académico como en el laboral, demostrando habilidades y 
-                conocimientos que le permitirán contribuir de manera significativa en diversos contextos y 
+                El egresado de la Institución Educativa San Nicolás - Tuta se destacará en la sociedad como un
+                líder ejemplar, con un profundo sentido de pertenencia, tolerancia y respeto hacia los demás.
+                Será competente tanto en el ámbito académico como en el laboral, demostrando habilidades y
+                conocimientos que le permitirán contribuir de manera significativa en diversos contextos y
                 enfrentar con éxito los desafíos del mundo moderno.
             </h5>
             <br>
         </div>
         <div class=" container col s12 m4 l4 green-text center">
-                <img src="./images/slider/11.jpeg" alt="perfil" class="borde-dorado " width=80%>
+            <img src="./images/slider/11.jpeg" alt="perfil" class="borde-dorado " width=80%>
         </div>
         <br>
         <br>
@@ -127,5 +127,4 @@ include 'includes/header.php'; ?>
 </div>
 
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.978313165623!2d-73.22735148532549!3d5.716261833606349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e6a6e896ba57b19%3A0xa2950f5e2a24f373!2sInstituci%C3%B3n%20Educativa%20San%20Nicolas%2C%20Sede%20Sider%C3%BArgica!5e0!3m2!1ses!2sco!4v1680283187306!5m2!1ses!2sco" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 <?php include 'includes/footer.php'; ?>
