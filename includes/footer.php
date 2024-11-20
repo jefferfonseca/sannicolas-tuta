@@ -1,6 +1,3 @@
-
-
-
 <?php
 /*  include('includes/db.php');
 $query = "UPDATE Visitas SET Contador = Contador + 1 WHERE Id = '1'";
@@ -21,85 +18,75 @@ echo "<h4 class='center-align'>Número de visitas: 0000" . $row['Contador'] . "<
 <script type="text/javascript" src="js/materialize.min.js"></script>
 <!-- Inicializa los JavaScript -->
 <script>
-   document.addEventListener("DOMContentLoaded", function () {
-       M.AutoInit();
-   });
+    document.addEventListener('DOMContentLoaded', function() {
+        M.AutoInit(); // Inicializa todos los componentes
+    });
 
-   //js fixed header
-   window.onscroll = function () {
-       myFunction();
-   };
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems);
+    });
 
-   var header = document.getElementById("myHeader");
-   var logo = document.getElementById("logo");
-   var sticky = header.offsetTop;
+    //js fixed header
+    window.onscroll = function() {
+        myFunction();
+    };
 
-   function myFunction() {
-       if (window.pageYOffset > sticky) {
-           header.classList.add("sticky");
-           logo.classList.remove("hide");
-       } else {
-           header.classList.remove("sticky");
-           logo.classList.add("hide");
-       }
-   }
+    var header = document.getElementById("myHeader");
+    var logo = document.getElementById("logo");
+    var sticky = header.offsetTop;
 
-   // efecto parallax
-   document.addEventListener("DOMContentLoaded", function () {
-       var elems = document.querySelectorAll(".parallax");
-       var instances = M.Parallax.init(elems);
-   });
+    function myFunction() {
+        if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+            logo.classList.remove("hide");
+        } else {
+            header.classList.remove("sticky");
+            logo.classList.add("hide");
+        }
+    }
 
-   // js Slider
-   var slideIndex = 0;
-   showSlides();
+    // efecto parallax
+    document.addEventListener("DOMContentLoaded", function() {
+        var elems = document.querySelectorAll(".parallax");
+        var instances = M.Parallax.init(elems);
+    });
 
-   function showSlides() {
-       var i;
-       var slides = document.getElementsByClassName("mySlides");
-       for (i = 0; i < slides.length; i++) {
-           slides[i].style.display = "none";
-       }
-       slideIndex++;
-       if (slideIndex > slides.length) {
-           slideIndex = 1;
-       }
-       slides[slideIndex - 1].style.display = "block";
-       setTimeout(showSlides, 2000); // Change image every 2 seconds
-   }
+    // js Slider
+    var slideIndex = 0;
+    showSlides();
 
+    function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {
+            slideIndex = 1;
+        }
+        slides[slideIndex - 1].style.display = "block";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
 </script>
-
-<footer class="page-footer">
-   <div class="container">
-       <div class="row">
-           <!-- Escudo del colegio -->
-           <div class="col s12 m4 ">
-           </div>
-
-           <!-- Redes Sociales -->
-           <div class="col s12 m4 center">
-               <a href="https://web.facebook.com/ietsannicolas" target="_blank">
-                <img src="./images/redes/fb.png" style="border-radius: 50%; width: 90px; height: 50px;" 
-                alt="@ietsannicolas" /></a>
-           </div>
-           <!-- Contacto -->
-           <div class="col s12 m4">
-               <h4><b>Contáctanos</b></h4>
-               <span>
-                   <h5><b>Celular:</b></h5>
-                   +57 321 222 2082
-                   <br />
-                   <h5><b>Dirección:</b></h5>
-                    Tuta, Boyacá, Colombia
-                   <br />
-                   <br />
-               </span>
-           </div>
-           </div>
-   </div>
-       <div class="footer-copyright valign-wrapper center-align">
-         <h6>© 2023 | <b>Design:</b> <a href="https://ingjefersonfonsecasoto.com.co" target="_blank">&lt;Ing. Jeferson Fonseca Soto&gt;</a></h6>
-       </div>
-   
+<footer class="p-0">
+    <div class="row valign-wrapper m-0">
+        <div class="col s4  center">
+            <h4 class="white-text">Contacto:</h4>
+            <h6><b>Celular:</b> <br>(+57) 321 222 2082</h6>
+            <h6><b>E-mail:</b> <br>tuta_colsannicolas@hotmail.com</h6>
+            <h6><b>Dirección</b> <br>Vda. El Arenal - Tuta</h6>
+        </div>
+        <div class="col s8 p-0 valign-wrapper">
+            <iframe class="p-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.978313165623!2d-73.22735148532549!3d5.716261833606349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e6a6e896ba57b19%3A0xa2950f5e2a24f373!2sInstituci%C3%B3n%20Educativa%20San%20Nicolas%2C%20Sede%20Sider%C3%BArgica!5e0!3m2!1ses!2sco!4v1680283187306!5m2!1ses!2sco" style="width: 100%; height: 400px; border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <div class="row foot-dev m-0">
+        <div class="col s12">
+            <div class="container center ">
+                <h6>© 2024 | <b>Powered By:</b> <a href="https://ingjefersonfonsecasoto.com.co" target="_blank">&lt; Ing. Jeferson Fonseca Soto &gt;</a></h6>
+            </div>
+        </div>
+    </div>
 </footer>

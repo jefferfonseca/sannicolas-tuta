@@ -43,7 +43,7 @@
 }
 
 .green-text {
-  color: #183a1d;
+  color: #347845;
 }
 
 .yellow-text {
@@ -128,6 +128,12 @@ footer {
   width: 100%;
   z-index: 1;
 }
+.foot-dev *{
+  background: #212121 !important;
+  color: aliceblue;
+  cursor: pointer;
+}
+
 
 @keyframes circle-out-hesitate {
   0% {

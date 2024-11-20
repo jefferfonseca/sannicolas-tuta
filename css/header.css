@@ -1,6 +1,6 @@
 :root {
   /*--verde: #183a1d;  green darken-4*/
-  --verde: #026014; /* green darken-4*/
+  --verde: #347845 !important; /* green darken-4*/
   --amarillo: #ffc400; /* yellow darken-3*/
 }
 body {
@@ -11,8 +11,19 @@ body {
   color: white;
 }
 
+.nav{
+  background: #347845 !important;
+  }
+
 .green{
-  background-color: #026014;
+  background-color: #347845 !important; 
+}
+
+.m-0{
+  margin: 0;
+}
+.p-0{
+  padding: 0;
 }
 
 header {
@@ -21,10 +32,7 @@ header {
   border-bottom: 3px solid #ffc400;
 }
 
-.header * {
-  margin: 10px 10px 0px 10px;
-  padding: 0px;
-}
+
 
 div.row {
   margin: 0px;
