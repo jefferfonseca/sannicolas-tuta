@@ -11,18 +11,34 @@
   font-family: Avenir;
 }
 
-.mySlides {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+body,
+html {
+  margin: 0;
+  padding: 0;
 }
 
-.mySlides img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.section {
+  height: 100vh; /* Cada sección ocupa toda la altura del viewport */
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  color: white;
+  font-size: 2rem;
+}
+
+/* Fondo inicial */
+body {
+  background: url("images/parallax/1.jpg") no-repeat center center fixed;
+  background-size: cover;
+  transition: background 0.5s ease; /* Transición suave al cambiar el fondo */
+}
+
+.section1 {
+  background-color: rgba(0, 0, 0, 0.5); /* Efecto de fondo sobre la imagen */
+}
+
+.section2 {
+  background-color: #ffc40028;
 }
 
 .botones {
@@ -43,22 +59,37 @@
 }
 
 .green-text {
-  color: #347845;
+  color: #056245 !important;
+  text-shadow: #8abcab 1px 1px 2px;
+}
+
+.parallax-container {
+  min-height: 350px;
 }
 
 .yellow-text {
   color: #ffc400;
+  text-shadow: #8baaa0 1px 1px 2px;
 }
 .justify-text {
   text-align: justify;
+  text-shadow: #000000 1px 1px 2px;
 }
 
 /*Cards de destacados*/
 .destacados {
   position: relative;
   border-radius: 20px;
+  width: 80%; /* Ajustar al ancho del contenedor padre */
+  overflow: hidden; /* Esconde cualquier exceso de la imagen */
+  margin: 0px 20px;
 }
-
+.destacados .image {
+  height: 100%; /* Ajusta la altura de la imagen al contenedor */
+  width: 100%; /* Ajusta el ancho de la imagen al contenedor */
+  object-fit: cover; /* Asegura que la imagen se ajuste sin distorsionarse */
+  object-position: center; /* Centra la imagen dentro del contenedor */
+}
 .image {
   opacity: 1;
   display: block;
@@ -88,7 +119,7 @@
 }
 
 .text {
-  background-color: #347845;
+  background-color: #056245;
   width: 100%;
   color: white;
   font-size: 30px;
@@ -128,12 +159,11 @@ footer {
   width: 100%;
   z-index: 1;
 }
-.foot-dev *{
+.foot-dev * {
   background: #212121 !important;
   color: aliceblue;
   cursor: pointer;
 }
-
 
 @keyframes circle-out-hesitate {
   0% {
@@ -148,5 +178,5 @@ footer {
 }
 
 [transition-style="out:circle:hesitate"] {
-  animation: 2.5s cubic-bezier(.25, 1, .30, 1) circle-out-hesitate both;
+  animation: 2.5s cubic-bezier(0.25, 1, 0.3, 1) circle-out-hesitate both;
 }

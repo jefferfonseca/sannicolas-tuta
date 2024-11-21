@@ -1,6 +1,6 @@
 :root {
-  /*--verde: #347845;  green darken-4*/
-  --verde: #347845 !important; /* green darken-4*/
+  /*--verde: #056245;  green darken-4*/
+  --verde: #056245 !important; /* green darken-4*/
   --amarillo: #ffc400; /* yellow darken-3*/
 }
 body {
@@ -12,11 +12,11 @@ body {
 }
 
 .nav {
-  background: #347845 !important;
+  background: #056245 !important;
 }
 
 .green {
-  background-color: #347845 !important;
+  background-color: #056245 !important;
 }
 
 .m-0 {
@@ -60,21 +60,21 @@ ul > .dropdown-content #institucion {
 }
 
 .li {
-  background-color: #347845;
+  background-color: #056245;
 }
 
 .dropdown-content > .li > a:hover {
   background-color: #ffc400;
 }
 
-.page-footer {
+footer {
+  background-color: #056245;
   padding-top: 20px;
   color: #fff;
   border-top: 4px solid #ffc400;
-  background-color: #212121;
 }
 
-.page-footer .footer-copyright {
+footer .footer-copyright {
   overflow: hidden;
   min-height: 50px;
   display: flex;

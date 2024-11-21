@@ -1,5 +1,5 @@
 <?php
-/*
+
 session_name("loginUsuario");
 //asigno un nombre a la sesión para poder guardar diferentes datos
 session_start();
@@ -37,5 +37,4 @@ foreach($result as $row){
   print_r($row);
 }
 $cx = NULL;
-*/
 ?>
