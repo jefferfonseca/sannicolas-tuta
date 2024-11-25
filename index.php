@@ -129,6 +129,10 @@ include 'includes/header.php'; ?>
 
 
 <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        document.body.style.backgroundImage = "url('images/parallax/1.jpg')";
+    });
+
     document.addEventListener("scroll", function() {
         const sections = document.querySelectorAll(".section");
         const scrollPosition = window.scrollY; // Ajusta el cálculo con la altura del header
