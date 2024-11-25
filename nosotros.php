@@ -1,9 +1,8 @@
 <?php $menu = "Nosotros";
 include 'includes/header.php'; ?>
 
-<div class="parallax-container historia">
+<div class="parallax-container">
     <div class="parallax"><img src="./images/nosotros/h2.jpeg"></div>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </div>
 
 
@@ -13,9 +12,9 @@ include 'includes/header.php'; ?>
         <div class="columnas">
             <p class="green-text text-darken-4">
                 La Institución Educativa San Nicolás fue fundada en el año 1957, en sus comienzos
-                las actividades académicas se desarrollaron en casas de familia y años más tarde 
-                adquirieron un lote con aportes de la comunidad. En la administración del Doctor 
-                Alcides Gómez en 1997 se creó la posprimaria ruraldando la oportunidad a los jóvenes 
+                las actividades académicas se desarrollaron en casas de familia y años más tarde
+                adquirieron un lote con aportes de la comunidad. En la administración del Doctor
+                Alcides Gómez en 1997 se creó la posprimaria ruraldando la oportunidad a los jóvenes
                 de la región a continuar sus estudios hasta el grado noveno.
 
                 En octubre del año 2003 con la resolución 5762 se fusionan las escuelas de Jorge
@@ -27,7 +26,7 @@ include 'includes/header.php'; ?>
                 Por ampliación de cobertura se inicia la básica secundaria en la sede Siderúrgica en el
                 año 2008, actualmente se ofrece el grado octavo y se sueña brindar en la institución el
                 ciclo de educación media con articulación a la educación superior. Desde el año 2006 la
-                institución cuenta con el nombramiento en propiedad de la Especialista Ana Jaqueline 
+                institución cuenta con el nombramiento en propiedad de la Especialista Ana Jaqueline
                 Saganome López como rectora y en la actualidad laboran 19 docentes y dos administrativos.
             </p>
         </div>
@@ -35,7 +34,7 @@ include 'includes/header.php'; ?>
 </div>
 
 <!-- Misión -->
-<div class="row mision">
+<div class="row mision section1  valign-wrapper">
     <div class="col s12 m6">
         <h1 class="center yellow-text">Misión</h1>
         <p style="padding: 5px 25px">
@@ -48,17 +47,17 @@ include 'includes/header.php'; ?>
         </p>
     </div>
 
-    <div class="col s12 m6 center ">
+    <div class="col s12 m6">
         <img src="./images/nosotros/m.png" width=80%>
     </div>
 </div>
 
 
 <!-- Visión -->
-<div class="row">
+<div class="row vision valign-wrapper">
 
     <div class="col s12 m6 center hide-on-small-only">
-        <img src="./images/nosotros/v.png" width=60%>
+        <img src="./images/nosotros/v.png" width=80%>
     </div>
 
     <div class="col s12 m6">
@@ -71,11 +70,18 @@ include 'includes/header.php'; ?>
     </div>
 
     <div class="col s12 m6 center hide-on-med-and-up">
-        <img src="./images/nosotros/v.png" width=60%>
+        <img src="./images/nosotros/v.png" width=80%>
     </div>
 </div>
 
-<div class="carousel carousel-slider white center">
+<div class="parallax-container">
+    <div class="parallax"><img src="./images/parallax/4.jpg"></div>
+</div>
+
+
+<!-- Principios -->
+<div class="carousel carousel-slider section section2 center">
+
     <div class="carousel-fixed-item">
         <h2 class="center green-text text-darken-4"><b>PRINCIPIOS</b></h2>
     </div>
@@ -93,6 +99,7 @@ include 'includes/header.php'; ?>
         </div>
     </div>
 
+    <!-- Principios -->
     <div class="carousel-item green-text text-darken-4" href="#two!">
         <h4><br><b>CONSTRUCCIÓN DE VALORES</b></h4>
         <h5 class="container">
@@ -124,7 +131,13 @@ include 'includes/header.php'; ?>
 </div>
 
 
-<div class="section">
+
+<div class="parallax-container">
+    <div class="parallax"><img src="./images/parallax/5.jpg"></div>
+</div>
+
+
+<div class="section section3">
     <div class="row">
         <div class="col s12">
             <h2 class="center yellow-text">Filosofía</h2>
@@ -143,5 +156,38 @@ include 'includes/header.php'; ?>
         </div>
     </div>
 </div>
+
+
+<script>
+    // JavaScript para cambiar el fondo dependiendo de la sección visible
+    document.addEventListener("scroll", function() {
+        const sections = document.querySelectorAll(".section");
+        const scrollPosition = window.scrollY;
+
+        sections.forEach((section, index) => {
+            const sectionTop = section.offsetTop - 30;
+            const sectionHeight = section.offsetHeight;
+
+            if (
+                scrollPosition >= sectionTop &&
+                scrollPosition < sectionTop + sectionHeight
+            ) {
+                switch (index) {
+                    case 0:
+                        document.body.style.backgroundImage = "url('./images/parallax/5.jpg')";
+                        break;
+                    case 1:
+                        document.body.style.backgroundImage = "url('./images/parallax/6.jpg')";
+                        break;
+                    case 2:
+                        document.body.style.backgroundImage = "url('./images/parallax/6.jpg')";
+                        break;
+                    default:
+                        break;
+                }
+            }
+        });
+    });
+</script>
 
 <?php include 'includes/footer.php'; ?>

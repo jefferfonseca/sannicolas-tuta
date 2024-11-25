@@ -17,7 +17,7 @@ html {
   padding: 0;
 }
 
-.section {
+.section-destacados {
   height: 100vh; /* Cada sección ocupa toda la altura del viewport */
   display: flex;
   justify-content: center !important;
@@ -32,6 +32,13 @@ body {
   background-size: cover;
   transition: background 0.5s ease; /* Transición suave al cambiar el fondo */
 }
+
+.section{
+  min-height: 100vh;
+   background: rgba(255, 255, 255, 0.2); /* Fondo semitransparente */
+  backdrop-filter: blur(5px); /* Desenfoque aplicado al fondo */
+  -webkit-backdrop-filter: blur(10px); /* Compatibilidad con navegadores Webkit */
+ }
 
 .section1 {
   background-color: rgba(0, 0, 0, 0.5); /* Efecto de fondo sobre la imagen */
@@ -60,7 +67,7 @@ body {
 
 .green-text {
   color: #056245 !important;
-  text-shadow: #8abcab 1px 1px 2px;
+  text-shadow: #ffc400 1px 1px 4px;
 }
 
 .parallax-container {
@@ -152,6 +159,42 @@ body {
 .mision {
   display: flex;
   align-items: center;
+}
+
+.vision{
+  background-color: #262137;
+}
+
+.vision img{
+  -webkit-mask-image: linear-gradient(to bottom, 
+        rgba(0, 0, 0, 0) 0%, /* Parte superior transparente */
+        rgba(0, 0, 0, 1) 20%, /* Difuminado superior */
+        rgba(0, 0, 0, 1) 80%, /* Zona central visible */
+        rgba(0, 0, 0, 0) 100% /* Difuminado inferior */
+    );
+    mask-image: linear-gradient(to bottom, 
+        rgba(0, 0, 0, 0) 0%, 
+        rgba(0, 0, 0, 1) 20%, 
+        rgba(0, 0, 0, 1) 80%, 
+        rgba(0, 0, 0, 0) 100%
+    );
+    -webkit-mask-composite: destination-in;
+    mask-composite: intersect;
+
+    /* Opcional: Añadir borde suave en los laterales */
+    -webkit-mask-image: linear-gradient(to right, 
+        rgba(0, 0, 0, 0) 0%, 
+        rgba(0, 0, 0, 1) 10%, 
+        rgba(0, 0, 0, 1) 90%, 
+        rgba(0, 0, 0, 0) 100%);
+    mask-image: linear-gradient(to right, 
+        rgba(0, 0, 0, 0) 0%, 
+        rgba(0, 0, 0, 1) 10%, 
+        rgba(0, 0, 0, 1) 90%, 
+        rgba(0, 0, 0, 0) 100%);
+    
+    width: 100%;
+    height: auto;
 }
 
 footer {

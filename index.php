@@ -1,6 +1,6 @@
 <?php $menu = "Inicio";
 include 'includes/header.php'; ?>
-<div class="row " id="content">
+<div class="row section valign-wrapper" id="content">
     <div class="col s12 l8">
         <div class="slideshow-container center">
             <?php
@@ -58,7 +58,7 @@ include 'includes/header.php'; ?>
     </div>
 </div>
 
-<div class="section section1">
+<div class="section-destacados section  section1 valign-wrapper">
     <div class="row ">
         <h2 class="center-align green-text p-0 m-0">Destacados</h2>
         <div class="center">
@@ -105,8 +105,8 @@ include 'includes/header.php'; ?>
     <div class="parallax"><img src="images/parallax/2.jpeg"></div>
 </div>
 
-<div class="section section2">
-    <div class="row">
+<div class="section section2 valign-wrapper">
+    <div class="row ">
         <h2 class="center yellow-text" id="content">Perfil del Egresado</h2>
         <div class="valign-wrapper">
             <div class="col s12 m8">
@@ -129,13 +129,12 @@ include 'includes/header.php'; ?>
 
 
 <script>
-    // JavaScript para cambiar el fondo dependiendo de la sección visible
     document.addEventListener("scroll", function() {
         const sections = document.querySelectorAll(".section");
-        const scrollPosition = window.scrollY;
+        const scrollPosition = window.scrollY; // Ajusta el cálculo con la altura del header
 
         sections.forEach((section, index) => {
-            const sectionTop = section.offsetTop;
+            const sectionTop = section.offsetTop - 90;
             const sectionHeight = section.offsetHeight;
 
             if (
