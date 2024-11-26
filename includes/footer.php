@@ -52,9 +52,9 @@ echo "<h4 class='center-align'>Número de visitas: 0000" . $row['Contador'] . "<
     }
 
     document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.parallax');
-    var instances = M.Parallax.init(elems);
-  });
+        var elems = document.querySelectorAll('.parallax');
+        var instances = M.Parallax.init(elems);
+    });
 
     // js Slider
     var slideIndex = 0;
@@ -73,6 +73,11 @@ echo "<h4 class='center-align'>Número de visitas: 0000" . $row['Contador'] . "<
         slides[slideIndex - 1].style.display = "block";
         setTimeout(showSlides, 2000); // Change image every 2 seconds
     }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.carousel');
+        var instances = M.Carousel.init(elems, options);
+    });
 </script>
 <footer class="p-0">
     <div class="row valign-wrapper m-0">

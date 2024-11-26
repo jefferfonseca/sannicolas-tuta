@@ -70,6 +70,11 @@ body {
   text-shadow: #ffc400 1px 1px 4px;
 }
 
+.container{
+  text-shadow: #000000 1px 1px 4px;
+  padding-bottom: 30px;
+}
+
 .parallax-container {
   min-height: 350px;
 }
@@ -222,4 +227,29 @@ footer {
 
 [transition-style="out:circle:hesitate"] {
   animation: 2.5s cubic-bezier(0.25, 1, 0.3, 1) circle-out-hesitate both;
+}
+
+
+/*Slider items*/
+.carousel-prev,
+.carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+}
+.carousel-prev {
+    left: 10px;
+}
+.carousel-next {
+    right: 10px;
+}
+
+button:focus{
+  background: #056245;
+  color: aliceblue;
 }

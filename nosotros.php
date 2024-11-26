@@ -83,59 +83,64 @@ include 'includes/header.php'; ?>
 
 <!-- Principios -->
 <div class="section valign-wrapper">
-    <h2 class="center green-text text-darken-4"><b>PRINCIPIOS</b></h2>
-    <div class="carousel carousel-slider  center">
-        <div class="carousel-item green-text text-darken-4" href="#one!">
-            <div class="principios">
-                <h4><br><b>FORMACIÓN ETICA Y MORAL</b></h4>
-                <h5 class="container">
-                    Construcción del ambiente común y cotidiano de la Institución como expresión de nuestra
-                    relación con los compañeros, con los docentes, con los demás vínculos y personas activas en
-                    los procesos y el conocimiento de lo moral y ético, a través del respeto, la correlación entre
-                    comprensión y tolerancia, resultado del crecimiento personal y del compromiso de servicio a los
-                    demás, acorde con el concepto de comunidad, incluyendo el llamado de un ser espiritual y moral.
-                </h5>
+    <div style="width: 100%;">
+        <h2 class="center white-text text-darken-4 container"><b>PRINCIPIOS</b></h2>
+        <div class="carousel carousel-slider center" data-indicators="true">
+            <div class="carousel-item white-text text-darken-4 valign-wrapper" href="#one!">
+                <div class="principios">
+                    <h4 class="container"><br><b>FORMACIÓN ETICA Y MORAL</b></h4>
+                    <h5 class="container">
+                        Construcción del ambiente común y cotidiano de la Institución como expresión de nuestra
+                        relación con los compañeros, con los docentes, con los demás vínculos y personas activas en
+                        los procesos y el conocimiento de lo moral y ético, a través del respeto, la correlación entre
+                        comprensión y tolerancia, resultado del crecimiento personal y del compromiso de servicio a los
+                        demás, acorde con el concepto de comunidad, incluyendo el llamado de un ser espiritual y moral.
+                    </h5>
+                </div>
+            </div>
+            <div class="carousel-item white-text text-darken-4 valign-wrapper" href="#two!">
+                <div class="principios">
+                    <h4 class="container"><br><b>CONSTRUCCIÓN DE VALORES</b></h4>
+                    <h5 class="container">
+                        Comprensión de la persona como sujeto de valores en todos los niveles de su desarrollo y en
+                        todos los campos de relación que pueda establecer a través de su vida; como receptora-constructora
+                        activa de estructuras de valor que le permitan lograr la autonomía en el respeto, la responsabilidad,
+                        la honestidad, la tolerancia, el diálogo, la creatividad, la paz, la justicia, la cooperación y la
+                        amistad.
+                    </h5>
+                </div>
+            </div>
+            <div class="carousel-item white-text text-darken-4 valign-wrapper" href="#three!">
+                <div class="principios">
+                    <h4 class="container"><br><b>COMPROMISO SOCIAL Y LIDERAZGO DE SERVICIO</b></h4>
+                    <h5 class="container">
+                        Asumir la responsabilidad de ser parte de la Comunidad Local, Nacional e Internacional construyendo,
+                        a través del conocimiento, del compromiso y de la acción con el otro, estructuras sociales cada vez
+                        más justas e integrales.
+                    </h5>
+                </div>
+            </div>
+            <div class="carousel-item white-text text-darken-4 valign-wrapper" href="#four!">
+                <div class="principios">
+                    <h4 class="container"><br><b>EXCELENCIA ACADÉMICA</b></h4>
+                    <h5 class="container">
+                        Desarrollo pedagógico de procesos que potencien al máximo las capacidades éticas, cognitivas,
+                        comunicativas, afectivas, psicomotrices, de relación interpersonal y de compromiso social.
+                    </h5>
+                </div>
             </div>
         </div>
-
-        <!-- Principios -->
-        <div class="carousel-item green-text text-darken-4" href="#two!">
-            <h4><br><b>CONSTRUCCIÓN DE VALORES</b></h4>
-            <h5 class="container">
-                Comprensión de la persona como sujeto de valores en todos los niveles de su desarrollo y en
-                todos los campos de relación que pueda establecer a través de su vida; como receptora-constructora
-                activa de estructuras de valor que le permitan lograr la autonomía en el respeto, la responsabilidad,
-                la honestidad, la tolerancia, el diálogo, la creatividad, la paz, la justicia, la cooperación y la
-                amistad.
-            </h5>
-        </div>
-
-        <div class="carousel-item green-text text-darken-4" href="#three!">
-            <h4><br><b>COMPROMISO SOCIAL Y LIDERAZGO DE SERVICIO</b></h4>
-            <h5 class="container">
-                Asumir la responsabilidad de ser parte de la Comunidad Local, Nacional e Internacional construyendo,
-                a través del conocimiento, del compromiso y de la acción con el otro, estructuras sociales cada vez
-                más justas e integrales.
-            </h5>
-        </div>
-
-        <div class="carousel-item green-text text-darken-4" href="#four!">
-            <h4><br><b>EXCELENCIA ACADÉMICA</b></h4>
-            <h5 class="container">
-                Desarrollo pedagógico de procesos que potencien al máximo las capacidades éticas, cognitivas,
-                comunicativas, afectivas, psicomotrices, de relación interpersonal y de compromiso social.
-            </h5>
-        </div>
+        <!-- Flechas para navegación manual -->
+        <button class="carousel-prev"><</button>
+        <button class="carousel-next">></button>
     </div>
 </div>
-
 
 
 
 <div class="parallax-container">
     <div class="parallax"><img src="./images/parallax/5.jpg"></div>
 </div>
-
 
 <div class="section section3">
     <div class="row">
@@ -156,7 +161,6 @@ include 'includes/header.php'; ?>
         </div>
     </div>
 </div>
-
 
 <script>
     document.addEventListener("DOMContentLoaded", function() {
@@ -189,6 +193,32 @@ include 'includes/header.php'; ?>
                         break;
                 }
             }
+        });
+    });
+
+
+    //Slider de principios
+    document.addEventListener("DOMContentLoaded", function() {
+        const carousel = document.querySelectorAll('.carousel');
+        M.Carousel.init(carousel, {
+            fullWidth: true,
+            indicators: true,
+            duration: 200
+        });
+
+        // Activar transición automática
+        let instance = M.Carousel.getInstance(carousel[0]);
+        setInterval(() => {
+            instance.next();
+        }, 5000); // Cambia cada 5 segundos
+
+        // Flechas de navegación manual
+        document.querySelector(".carousel-prev").addEventListener("click", () => {
+            instance.prev();
+        });
+
+        document.querySelector(".carousel-next").addEventListener("click", () => {
+            instance.next();
         });
     });
 </script>
