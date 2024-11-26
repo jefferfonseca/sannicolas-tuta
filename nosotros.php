@@ -168,7 +168,7 @@ include 'includes/header.php'; ?>
         const scrollPosition = window.scrollY;
 
         sections.forEach((section, index) => {
-            const sectionTop = section.offsetTop - 30;
+            const sectionTop = section.offsetTop - 90;
             const sectionHeight = section.offsetHeight;
 
             if (
