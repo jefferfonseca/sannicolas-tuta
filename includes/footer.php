@@ -76,8 +76,10 @@ echo "<h4 class='center-align'>Número de visitas: 0000" . $row['Contador'] . "<
 
     document.addEventListener('DOMContentLoaded', function() {
         var elems = document.querySelectorAll('.carousel');
-        var instances = M.Carousel.init(elems, options);
+        var instances = M.Carousel.init(elems);
     });
+
+
 </script>
 <footer class="p-0">
     <div class="row valign-wrapper m-0">

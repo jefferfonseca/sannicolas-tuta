@@ -86,6 +86,8 @@ include('includes/header.php'); ?>
                             Construyendo sueños y anhelos
                             Juventudes de fugaz proceder.
                         </p>
+                    </div>
+                    <div class="col s12 m4 center black-text">
 
                         <h4>I</h4>
                         <p>
@@ -99,17 +101,7 @@ include('includes/header.php'); ?>
                             En convivencia, lealtad y labor.
                         </p>
                     </div>
-
-                    <!--Col 2-->
                     <div class="col s12 m4 center black-text">
-                        <h4>CORO:</h4>
-                        <p>
-                            ¡Oh claustro! De ciencia y saber
-                            Cantemos unidos “queremos y podemos”
-                            Construyendo sueños y anhelos
-                            Juventudes de fugaz proceder.
-                        </p>
-
                         <h4>II</h4>
                         <p>
                             Al creador elevemos ¡Oh cantos!
@@ -122,17 +114,6 @@ include('includes/header.php'); ?>
                             De estudiantes radiantes cual sol
                         </p>
                     </div>
-
-                    <!--Col 3-->
-                    <div class="col s12 m4 center black-text">
-                        <h4>CORO:</h4>
-                        <p>
-                            ¡Oh claustro! De ciencia y saber
-                            Cantemos unidos “queremos y podemos”
-                            Construyendo sueños y anhelos
-                            Juventudes de fugaz proceder.
-                        </p>
-                    </div>
                 </div>
                 <p class="center-align black-text">
                     <b>LETRA: </b>ESP. MARÍA ELSA BECERRA SILVA & ESP. VÍCTOR ALFONSO MALDONADO
@@ -142,121 +123,128 @@ include('includes/header.php'); ?>
             </div>
         </div>
 
-        <!-- Uniformes -->
-        <div id="uniformes" class="section scrollspy container">
-            <div class="row">
+    <!-- Uniformes -->
+    <div id="uniformes" class="section scrollspy container">
+        <div class="row">
 
-                <!-- Titulo principal -->
-                <h5 class="green-text text-darken-4 center"><b>Uniformes</b></h5>
+            <!-- Titulo principal -->
+            <h5 class="green-text text-darken-4 center"><b>Uniformes</b></h5>
 
-                <!-- Uniformes de diario -->
-                <h5 class="green-text text-darken-4 center"><b>UNIFORMES DE DIARIO</b></h5>
+            <!-- Uniformes de diario -->
+            <h5 class="green-text text-darken-4 center"><b>UNIFORMES DE DIARIO</b></h5>
 
-                <!--Col Masculino-->
-                <div class="col s12 m6 center">
-                    <br>
+            <!--Col Masculino-->
+            <div class="col s12 m6 center">
+                <br>
 
-                    <h5 class="green-text text-darken-4 ">Masculino</h5>
+                <h5 class="green-text text-darken-4 ">Masculino</h5>
 
-                    <br>
-                    <img src="./images/simbolos/2.png" width="200px">
-                    <br>
+                <br>
+                <img src="./images/simbolos/2.png" width="200px">
+                <br>
 
-                    <ul class="black-text" style="text-align: justify;">
-                        <li>• Pantalón gris ratón oscuro (bota recta).</li>
-                        <li>• Camisa blanca entremetidos rojos.</li>
-                        <li>• Bléiser azul oscuro con entremetido rojo cereza bordada en hilo amarillo.</li>
-                        <li>• Corbata rojo cereza.</li>
-                        <li>• Zapatos azules de amarrar.</li>
-                        <li>• Media azul oscuro según modelo de la institución (no tobillera).</li>
-                    </ul>
-                </div>
-
-                <!--Col Femenino-->
-                <div class="col s12 m6  center">
-                    <br>
-                    <h5 class="green-text text-darken-4">Femenino</h5>
-                    <br>
-                    <img src="./images/simbolos/1.png" width="230px" alt="femenino">
-                    <br>
-
-                    <ul class="black-text" style="text-align: justify;  display: block;">
-                        <li>• Jardinera gris escocés de acuerdo con el modelo, cubriendo la rodilla.</li>
-                        <li>• Camisa blanca con entremetidos rojo cuello sport.</li>
-                        <li>• Bléiser azul oscuro con entremetidos rojo cereza y bordado con las iniciales de la institución.</li>
-                        <li>• Corbata rojo cereza.</li>
-                    </ul>
-                </div>
+                <ul class="black-text" style="text-align: justify;">
+                    <li>• Pantalón gris ratón oscuro (bota recta).</li>
+                    <li>• Camisa blanca entremetidos rojos.</li>
+                    <li>• Bléiser azul oscuro con entremetido rojo cereza bordada en hilo amarillo.</li>
+                    <li>• Corbata rojo cereza.</li>
+                    <li>• Zapatos azules de amarrar.</li>
+                    <li>• Media azul oscuro según modelo de la institución (no tobillera).</li>
+                </ul>
             </div>
 
-            <div class="row center">
-                <!-- Uniformes de edu. física -->
-                <h5 class="green-text text-darken-4"><b>UNIFORMES DE EDUCACIÓN FÍSICA.</b></h5>
+            <!--Col Femenino-->
+            <div class="col s12 m6  center">
+                <br>
+                <h5 class="green-text text-darken-4">Femenino</h5>
+                <br>
+                <img src="./images/simbolos/1.png" width="230px" alt="femenino">
+                <br>
 
-                <div class="col s12">
-                    <br>
-                    <img src="./images/simbolos/3.png" width="330px" height="330px" alt="bandera">
-                    <img src="./images/simbolos/4.png" width="330px" height="330px" alt="bandera">
-
-                    <ul class="black-text" style="text-align: justify;">
-                        <li>• Sudadera Verde y gris.</li>
-                        <li>• camiseta y pantaloneta según modelo.</li>
-                        <li>• medias blancas.</li>
-                        <li>• Tenis totalmente blancos.</li>
-                    </ul>
-                </div>
+                <ul class="black-text" style="text-align: justify;  display: block;">
+                    <li>• Jardinera gris escocés de acuerdo con el modelo, cubriendo la rodilla.</li>
+                    <li>• Camisa blanca con entremetidos rojo cuello sport.</li>
+                    <li>• Bléiser azul oscuro con entremetidos rojo cereza y bordado con las iniciales de la institución.</li>
+                    <li>• Corbata rojo cereza.</li>
+                </ul>
             </div>
-            <div class="row center">
-                <!-- Uniformes de edu. física -->
-                <h5 class="green-text text-darken-4"><b>ADICIONALMENTE.</b></h5>
+        </div>
 
-                <div class="col s12">
-                    <p class="black-text" style="text-align: justify;">
-                        La básica primaria usa delantal azul escocés de acuerdo con el modelo para niños(as).
-                    </p>
+        <div class="row center">
+            <!-- Uniformes de edu. física -->
+            <h5 class="green-text text-darken-4"><b>UNIFORMES DE EDUCACIÓN FÍSICA.</b></h5>
 
-                    <p class="black-text" style="text-align: justify;">
-                        <b>Pre-escolar y básica primaria:</b> Uniformes establecidos y delantal
-                        rojo gallineto camisero, según modelo.
-                    </p>
+            <div class="col s12">
+                <br>
+                <img src="./images/simbolos/3.png" width="330px" height="330px" alt="bandera">
+                <img src="./images/simbolos/4.png" width="330px" height="330px" alt="bandera">
 
-                    <p class="black-text" style="text-align: justify;">
+                <ul class="black-text" style="text-align: justify;">
+                    <li>• Sudadera Verde y gris.</li>
+                    <li>• camiseta y pantaloneta según modelo.</li>
+                    <li>• medias blancas.</li>
+                    <li>• Tenis totalmente blancos.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row center">
+            <!-- Uniformes de edu. física -->
+            <h5 class="green-text text-darken-4"><b>ADICIONALMENTE.</b></h5>
 
-                        <b>Básica Secundaria:</b> Cada estudiante debe portar bata blanca para usar en laboratorio,
-                        Tapa bocas y guantes según requerimiento del docente
-                    </p>
+            <div class="col s12">
+                <p class="black-text" style="text-align: justify;">
+                    La básica primaria usa delantal azul escocés de acuerdo con el modelo para niños(as).
+                </p>
 
-                    <p class="black-text" style="text-align: justify;">
-                        <b>Educación Media (10 - 11): </b> Uniformes establecidos y demás elementos EPP requeridos por
-                        norma para uso de laboratorios.
-                    </p>
+                <p class="black-text" style="text-align: justify;">
+                    <b>Pre-escolar y básica primaria:</b> Uniformes establecidos y delantal
+                    rojo gallineto camisero, según modelo.
+                </p>
 
-                    <!--    <p class="black-text" style="text-align: justify;">
+                <p class="black-text" style="text-align: justify;">
+
+                    <b>Básica Secundaria:</b> Cada estudiante debe portar bata blanca para usar en laboratorio,
+                    Tapa bocas y guantes según requerimiento del docente
+                </p>
+
+                <p class="black-text" style="text-align: justify;">
+                    <b>Educación Media (10 - 11): </b> Uniformes establecidos y demás elementos EPP requeridos por
+                    norma para uso de laboratorios.
+                </p>
+
+                <!--    <p class="black-text" style="text-align: justify;">
                         <b>NOTA: </b>Los Estudiantes deben presentarse bien aseados, con el cabello de color natural, sin anillos, manillas, joyas, pulseras, collares, aretes,
                         piercings, cadenas, maquillaje o esmalte ni tatuajes. Si usan hebillas, diademas, moñas o coleros deben ser de color blanco, gris o azul.
                         Si usan accesorios en las orejas sólo podrán ser topitos de color blanco o de oro.
                     </p>
                      -->
-                </div>
-            </div>
-        </div>
-        <!-- cierre de row -->
-    </div>
-    <!-- cierre de Contents-->
-
-    <!-- Table of Contents -->
-    <div class="col hide-on-small-only m3">
-        <div class="toc-wrapper pinned" style="top: 26%;">
-            <div style="height: 1px;">
-                <ul class="section table-of-contents">
-                    <li><a href="#bandera">Bandera</a></li>
-                    <li><a href="#escudo"> Escudo</a></li>
-                    <li><a href="#himno">Himno</a></li>
-                    <li><a href="#uniformes">Uniformes</a></li>
-                </ul>
             </div>
         </div>
     </div>
+    <!-- cierre de row -->
 </div>
+<!-- cierre de Contents-->
+
+
+
+<!-- Table of Contents -->
+<div class="col hide-on-small-only m3 l2">
+    <ul class="section table-of-contents pinned">
+        <ul class="section table-of-contents">
+            <li><a href="#bandera">Bandera</a></li>
+            <li><a href="#escudo"> Escudo</a></li>
+            <li><a href="#himno">Himno</a></li>
+            <li><a href="#uniformes">Uniformes</a></li>
+        </ul>
+</div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.scrollspy');
+        var instances = M.ScrollSpy.init(elems);
+    });
+</script>
+
 
 <?php include('includes/footer.php'); ?>

@@ -6,12 +6,12 @@ include 'includes/header.php'; ?>
 </div>
 
 
-<div class="section valign-wrapper">
+<div class="sec section section1 valign-wrapper">
     <div>
-        <h2 class="center green-text text-darken-4">HISTORIA</h2>
+        <h2 class="center yellow-text">HISTORIA</h2>
         <div class="row historia">
             <div class="columnas">
-                <p class="green-text text-darken-4">
+                <p class="">
                     La Institución Educativa San Nicolás fue fundada en el año 1957, en sus comienzos
                     las actividades académicas se desarrollaron en casas de familia y años más tarde
                     adquirieron un lote con aportes de la comunidad. En la administración del Doctor
@@ -34,9 +34,11 @@ include 'includes/header.php'; ?>
         </div>
     </div>
 </div>
-
+<div class="parallax-container">
+    <div class="parallax"><img src="./images/parallax/8.jpg"></div>
+</div>
 <!-- Misión -->
-<div class="row mision section1  valign-wrapper">
+<div class="row mision section section1  valign-wrapper">
     <div class="col s12 m6">
         <h1 class="center yellow-text">Misión</h1>
         <p style="padding: 5px 25px">
@@ -86,7 +88,7 @@ include 'includes/header.php'; ?>
     <div style="width: 100%;">
         <h2 class="center white-text text-darken-4 container"><b>PRINCIPIOS</b></h2>
         <div class="carousel carousel-slider center" data-indicators="true">
-            <div class="carousel-item white-text text-darken-4 valign-wrapper" href="#one!">
+            <div class="carousel-item white-text text-darken-4" href="#one!">
                 <div class="principios">
                     <h4 class="container"><br><b>FORMACIÓN ETICA Y MORAL</b></h4>
                     <h5 class="container">
@@ -98,7 +100,7 @@ include 'includes/header.php'; ?>
                     </h5>
                 </div>
             </div>
-            <div class="carousel-item white-text text-darken-4 valign-wrapper" href="#two!">
+            <div class="carousel-item white-text" href="#two!">
                 <div class="principios">
                     <h4 class="container"><br><b>CONSTRUCCIÓN DE VALORES</b></h4>
                     <h5 class="container">
@@ -110,7 +112,7 @@ include 'includes/header.php'; ?>
                     </h5>
                 </div>
             </div>
-            <div class="carousel-item white-text text-darken-4 valign-wrapper" href="#three!">
+            <div class="carousel-item white-text" href="#three!">
                 <div class="principios">
                     <h4 class="container"><br><b>COMPROMISO SOCIAL Y LIDERAZGO DE SERVICIO</b></h4>
                     <h5 class="container">
@@ -120,7 +122,7 @@ include 'includes/header.php'; ?>
                     </h5>
                 </div>
             </div>
-            <div class="carousel-item white-text text-darken-4 valign-wrapper" href="#four!">
+            <div class="carousel-item white-text text-darken-4 valign-wrappe" href="#four!">
                 <div class="principios">
                     <h4 class="container"><br><b>EXCELENCIA ACADÉMICA</b></h4>
                     <h5 class="container">
@@ -132,7 +134,7 @@ include 'includes/header.php'; ?>
         </div>
         <!-- Flechas para navegación manual -->
         <button class="carousel-prev"><</button>
-        <button class="carousel-next">></button>
+                <button class="carousel-next">></button>
     </div>
 </div>
 
@@ -142,8 +144,8 @@ include 'includes/header.php'; ?>
     <div class="parallax"><img src="./images/parallax/5.jpg"></div>
 </div>
 
-<div class="section section3">
-    <div class="row">
+<div class="sec section section3">
+    <div class="row  ">
         <div class="col s12">
             <h2 class="center yellow-text">Filosofía</h2>
             <p class="container">
@@ -181,12 +183,15 @@ include 'includes/header.php'; ?>
             ) {
                 switch (index) {
                     case 0:
-                        document.body.style.backgroundImage = "url('./images/parallax/5.jpg')";
+                        document.body.style.backgroundImage = "url('./images/nosotros/h2.jpeg')";
                         break;
                     case 1:
-                        document.body.style.backgroundImage = "url('./images/parallax/6.jpg')";
+                        document.body.style.backgroundImage = "url('./images/parallax/5.jpg')";
                         break;
                     case 2:
+                        document.body.style.backgroundImage = "url('./images/parallax/6.jpg')";
+                        break;
+                    case 3:
                         document.body.style.backgroundImage = "url('./images/parallax/6.jpg')";
                         break;
                     default:

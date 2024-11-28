@@ -33,11 +33,19 @@ body {
   transition: background 0.5s ease; /* Transición suave al cambiar el fondo */
 }
 
+.sec{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.2); /* Fondo semitransparente */
+ }
+
 .section{
   min-height: 100vh;
-   background: rgba(255, 255, 255, 0.2); /* Fondo semitransparente */
   backdrop-filter: blur(5px); /* Desenfoque aplicado al fondo */
-  -webkit-backdrop-filter: blur(10px); /* Compatibilidad con navegadores Webkit */
+  -webkit-backdrop-filter: blur(10px); 
+  /* Compatibilidad con navegadores Webkit */
+  background: rgba(255, 255, 255, 0.2); /* Fondo semitransparente */
  }
 
 .section1 {
@@ -67,7 +75,7 @@ body {
 
 .green-text {
   color: #056245 !important;
-  text-shadow: #ffc400 1px 1px 4px;
+  text-shadow: #000000 1px 1px 2px;
 }
 
 .container{
@@ -144,6 +152,7 @@ body {
   /* Espacio entre las columnas */
   column-gap: 30px;
   padding: 0 40px;
+  text-shadow: #000000 1px 1px 1px;
 }
 .columnas p {
   margin: 0;
@@ -207,6 +216,7 @@ footer {
   width: 100%;
   z-index: 1;
 }
+
 .foot-dev * {
   background: #212121 !important;
   color: aliceblue;
