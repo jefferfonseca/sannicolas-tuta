@@ -229,8 +229,8 @@ include('includes/header.php'); ?>
 
 <!-- Table of Contents -->
 <div class="col hide-on-small-only m3 l2">
-    <ul class="section table-of-contents pinned">
-        <ul class="section table-of-contents">
+    <ul class="table-of-contents pinned">
+        <ul class="table-of-contents">
             <li><a href="#bandera">Bandera</a></li>
             <li><a href="#escudo"> Escudo</a></li>
             <li><a href="#himno">Himno</a></li>
